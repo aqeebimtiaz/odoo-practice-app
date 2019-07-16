@@ -1,0 +1,10 @@
+sudo /etc/init.d/odoo-server start
+ps -ef|grep odoo
+sudo kill -9 <process-number>
+ /odoo/odoo-server/odoo-bin --addons-path=/odoo/odoo-server/addons,/odoo/odoo-server/odoo/addons,/odoo/custom/practise -d <db-name> -u openacademy
+psql OpenERP
+        \dt (to display tables)
+sudo su odoo -s /bin/bash
+         /odoo/odoo-server/odoo-bin --addons-path=/odoo/odoo-server/addons,/odoo/odoo-server/odoo/addons,/odoo/custom/addons -d OpenERP -u openacademy
+https://www.odoo.com/documentation/10.0/howtos/backend.html#model-inheritance
+https://www.odoo.com/documentation/10.0/howtos/backend.html#default-values

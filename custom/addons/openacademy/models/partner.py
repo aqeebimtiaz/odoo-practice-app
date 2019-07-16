@@ -1,4 +1,5 @@
-from odoo import fields, models
+from datetime import timedelta
+from odoo import fields, models, api, exceptions
 
 class Partner(models.Model):
     _inherit = 'res.partner'

@@ -1,0 +1,35 @@
+11-7
+Setup PC,
+Install Odoo
+Started researching on Odoo
+
+13-7
+Started working custom modules
+troubleshoot issues on both mine & Chisti's Odoo & PC.
+
+14-7
+Started building custom addons
+Built Courses menu item
+	Session menu item
+Initialized custom Search view
+Completed Many2one relationship for sessions with courses & users.
+
+15-7
+Worked on:
+	One2many & Many2many relations,
+	Inheritance: Model & View,
+	Computed fields,
+	Default values,
+	Onchange mechanism on seats & attendees number
+
+16-7
+Worked on:
+	Model constraints,
+	Advanced views:
+		Tree view,
+		Calendars,
+		Search view,
+		Gantt,
+		Graph,
+		Kanban,
+	Started Workflows, primary flows Initialized

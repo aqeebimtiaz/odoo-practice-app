@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+
+        <record model="workflow" id="wkf_session">
+            <field name="name">OpenAcademy session workflow</field>
+            <field name="osv">openacademy</field>
+        </record>
+
+    </data>
+</odoo>
