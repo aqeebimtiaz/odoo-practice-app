@@ -12,13 +12,17 @@
                                 <field name="course_id"/>
                                 <field name="name"/>
                                 <field name="instructor_id"/>
+                                <field name="active"/>
                             </group>
                             
                             <group string="Schedule date">
                                 <field name="start_date"/>
                                 <field name="duration"/>
                                 <field name="seats"/>
+                                <field name="taken_seats" widget="progressbar"/>
                             </group>
+                            <!-- <label for="attendee_ids"/> -->
+                            <field name="attendee_ids"/>
                         </group>
                     </sheet>
                 </form>
@@ -32,6 +36,8 @@
                 <tree string="Session Tree">
                     <field name="name"/>
                     <field name="course_id"/>
+                    <field name="instructor_id"/>
+                    <field name="taken_seats" widget="progressbar"/>
                 </tree>
             </field>
         </record>
