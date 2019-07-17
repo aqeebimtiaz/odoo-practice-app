@@ -24,18 +24,18 @@ class session(models.Model):
         ('draft', "Draft"),
         ('confirmed', "Confirmed"),
         ('done', "Done"),
-    ])
+    ], default = 'draft')
 
     @api.multi
     def action_draft(self):
         self.state = 'draft'
 
     @api.multi
-    def action_draft(self):
+    def action_confirm(self):
         self.state = 'confirmed'
 
     @api.multi
-    def action_draft(self):
+    def action_done(self):
         self.state = 'done'
 
     @api.depends('attendee_ids')

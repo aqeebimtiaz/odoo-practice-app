@@ -33,3 +33,15 @@ Worked on:
 		Graph,
 		Kanban,
 	Started Workflows, primary flows Initialized
+
+17-7
+Worked on:
+	Completed workflows:
+		model based,
+		server actions,
+	Security:
+		Group-based,
+		Access rights,
+		Record rules,
+	Wizards:
+		Started on wizards.
