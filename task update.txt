@@ -45,3 +45,15 @@ Worked on:
 		Record rules,
 	Wizards:
 		Started on wizards.
+
+18-7
+Completed module builing tutorial.
+Worked on:
+	Finished wizards,
+	Reporting:
+		Printed reports(PDF),
+		Dashboards,
+	Read through:
+		Internationalization,
+		WebServices.
+Started on Odoo guidelines.
