@@ -57,3 +57,8 @@ Worked on:
 		Internationalization,
 		WebServices.
 Started on Odoo guidelines.
+
+20-7
+Setup PyCharm,
+Tried to setup DB for PyCharm,
+Practised on PostgreSQL queries.
