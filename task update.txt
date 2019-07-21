@@ -62,3 +62,6 @@ Started on Odoo guidelines.
 Setup PyCharm,
 Tried to setup DB for PyCharm,
 Practised on PostgreSQL queries.
+
+21-7
+Worked on PostgreSQL Join, Update, Insert, Delete
