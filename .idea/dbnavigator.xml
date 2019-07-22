@@ -25,8 +25,17 @@
     <show-object-properties value="false" />
     <loaded-nodes>
       <connection connection-id="e66d322e-2094-4ac0-9849-561f088c1050">
-        <schema name="pg_catalog" object-types="view, function, table" />
-        <schema name="public" object-types="view, function, sequence, table" />
+        <schema name="pg_catalog" object-types="function, table, view" />
+        <schema name="public" object-types="function, table, view, sequence" />
+      </connection>
+      <connection connection-id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525">
+        <schema name="pg_catalog" object-types="function, table, view" />
+        <schema name="public" object-types="function, table, view" />
+      </connection>
+      <connection connection-id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf">
+        <schema name="information_schema" object-types="function, table, view" />
+        <schema name="pg_catalog" object-types="function, table, view" />
+        <schema name="public" object-types="function, table, view, constraint, sequence, index, dataset trigger, column" />
       </connection>
     </loaded-nodes>
   </component>
@@ -49,16 +58,56 @@
 
 --select distinct res_partner.name, email from res_partner left outer join openacademy_session on res_partner.id = openacademy_session.instructor_id where instructor_id is null;  
 
---select res_partner.name from res_partner cross join openacademy_session;  
+--select res_partner.name from res_partner cross join openacademy_session;]]></console>
+    </connection>
+    <connection id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525">
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE test_crosstab
+(
+    Product_Name TEXT
+    ,Product_Category TEXT
+    ,Product_Count INT
+);
 
+INSERT INTO test_crosstab
+VALUES
+('Mobile','IT',20)
+,('Mobile','ELE',40)
+,('Desktop','IT',50)
+,('Desktop','ELE',60)
+,('Laptop','IT',30)
+,('Laptop','ELE',70);
 
+select * from test_crosstab;
 
-drop table A;
-select * from A;
-create table B (
-pid int primary key not null,
-value decimal(5,2)
-);]]></console>
+CREATE EXTENSION tablefunc;
+
+select
+    tc.product_category,
+    tc.product_count,
+    tc.product_name
+from
+    test_crosstab tc;
+
+SELECT * 
+FROM CROSSTAB
+(
+    	'SELECT Product_Name, Product_Category, Product_Count
+    	 FROM test_crosstab
+    	 ORDER BY 1,2'
+)AS T (Product_Name text, IT INT, ELE INT)
+
+select * from CROSSTAB ('SELECT Product_Name, Product_Category FROM test_crosstab ORDER BY 1, 2' , $$VALUES('IT'::int),('ELE'::int)$$) as T ("Product_Name" text, "IT" int, "ELE" int);]]></console>
+    </connection>
+    <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf">
+      <console name="practice" type="STANDARD" schema="public" session="Main"><![CDATA[create extension if not exists tablefunc;
+
+SELECT * 
+FROM CROSSTAB
+(
+    	'SELECT Product_Name, Product_Category, Product_Count
+    	 FROM test_crosstab
+    	 ORDER BY 1,2'
+)AS T (Product_Name text, IT INT, ELE INT);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -67,6 +116,11 @@ value decimal(5,2)
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2" />
     <connection id="e66d322e-2094-4ac0-9849-561f088c1050" />
+    <connection id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525" />
+    <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525" dataset="public.a" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -97,7 +151,7 @@ value decimal(5,2)
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="9.5" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
@@ -188,6 +242,172 @@ value decimal(5,2)
           <host value="localhost" />
           <port value="5432" />
           <database value="OpenERP" />
+          <type value="USER_PASSWORD" />
+          <user value="postgres" />
+          <deprecated-pwd value="cG9zdGdyZXM=" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525" active="true">
+        <database>
+          <name value="test" />
+          <description value="" />
+          <database-type value="POSTGRES" />
+          <config-type value="BASIC" />
+          <database-version value="9.5" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="5432" />
+          <database value="test" />
+          <type value="USER_PASSWORD" />
+          <user value="postgres" />
+          <deprecated-pwd value="cG9zdGdyZXM=" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+      <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf" active="true">
+        <database>
+          <name value="practice" />
+          <description value="" />
+          <database-type value="POSTGRES" />
+          <config-type value="BASIC" />
+          <database-version value="9.5" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="5432" />
+          <database value="practice" />
           <type value="USER_PASSWORD" />
           <user value="postgres" />
           <deprecated-pwd value="cG9zdGdyZXM=" />

@@ -65,3 +65,8 @@ Practised on PostgreSQL queries.
 
 21-7
 Worked on PostgreSQL Join, Update, Insert, Delete
+
+22-7
+Worked on Crosstab, COALESCE
+https://dbfiddle.uk/?rdbms=postgres_9.5&fiddle=1e19e169ef677daf1791c467bc06bff8
+https://dbfiddle.uk/?rdbms=postgres_10&fiddle=d065e2ded7c441891ccdb3bf597d9194
