@@ -23,21 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="false" />
-    <loaded-nodes>
-      <connection connection-id="e66d322e-2094-4ac0-9849-561f088c1050">
-        <schema name="pg_catalog" object-types="function, table, view" />
-        <schema name="public" object-types="function, table, view, sequence" />
-      </connection>
-      <connection connection-id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525">
-        <schema name="pg_catalog" object-types="function, table, view" />
-        <schema name="public" object-types="function, table, view" />
-      </connection>
-      <connection connection-id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf">
-        <schema name="information_schema" object-types="function, table, view" />
-        <schema name="pg_catalog" object-types="function, table, view" />
-        <schema name="public" object-types="function, table, view, constraint, sequence, index, dataset trigger, column" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2">
