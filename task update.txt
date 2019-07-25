@@ -80,3 +80,8 @@ Worked on PostgreSQL,
 Worked on generating report on supplier order receive,
 		added category filter. 
 		(on wizard & report view, including models)
+
+25-7
+Worked on the following:
+	researched on Excel report generation for Stock Inventory.
+	Added Excel report format to supplier order receive.

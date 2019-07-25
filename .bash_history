@@ -135,3 +135,19 @@ exit
 /odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
 /odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
 exit
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u all
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u all
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u all
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d albaraka-s-20190620 -u inherited_purchase_order
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u all
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+exi
+exit
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190723 -u inherited_purchase_order
+exit
