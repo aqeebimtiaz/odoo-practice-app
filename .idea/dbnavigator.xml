@@ -23,7 +23,12 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="false" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
+        <schema name="pg_catalog" object-types="table, view, function" />
+        <schema name="public" object-types="table, view, function, column, sequence" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2">
@@ -46,44 +51,6 @@
 
 --select res_partner.name from res_partner cross join openacademy_session;]]></console>
     </connection>
-    <connection id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE test_crosstab
-(
-    Product_Name TEXT
-    ,Product_Category TEXT
-    ,Product_Count INT
-);
-
-INSERT INTO test_crosstab
-VALUES
-('Mobile','IT',20)
-,('Mobile','ELE',40)
-,('Desktop','IT',50)
-,('Desktop','ELE',60)
-,('Laptop','IT',30)
-,('Laptop','ELE',70);
-
-select * from test_crosstab;
-
-CREATE EXTENSION tablefunc;
-
-select
-    tc.product_category,
-    tc.product_count,
-    tc.product_name
-from
-    test_crosstab tc;
-
-SELECT * 
-FROM CROSSTAB
-(
-    	'SELECT Product_Name, Product_Category, Product_Count
-    	 FROM test_crosstab
-    	 ORDER BY 1,2'
-)AS T (Product_Name text, IT INT, ELE INT)
-
-select * from CROSSTAB ('SELECT Product_Name, Product_Category FROM test_crosstab ORDER BY 1, 2' , $$VALUES('IT'::int),('ELE'::int)$$) as T ("Product_Name" text, "IT" int, "ELE" int);]]></console>
-    </connection>
     <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf">
       <console name="practice" type="STANDARD" schema="public" session="Main"><![CDATA[create extension if not exists tablefunc;
 
@@ -95,6 +62,73 @@ FROM CROSSTAB
     	 ORDER BY 1,2'
 )AS T (Product_Name text, IT INT, ELE INT);]]></console>
     </connection>
+    <connection id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
+      <console name="Al Baraka" type="STANDARD" schema="public" session="Main"><![CDATA[select * from pos_order_line where product_id = 11973 
+    and date_trunc('day',create_date) >= 'Apr 13, 2019, 3:24:24 PM'
+        AND date_trunc('day',create_date) <= 'Apr 23, 2019, 3:24:24 PM';
+
+select * from pos_order where id = 35950;
+--date_trunc('day', pos_order_line.date_order) >= 'Apr 13, 2019, 3:24:24 PM' and date_trunc('day', pos_order_line.date_order) <= 'Apr 23, 2019, 3:24:24 PM'   ;
+
+select pt."name", cost_value, sale_value from
+(
+select pol.product_id as product_id,
+sum(pol.purchase_price * qty) as cost_value, 
+sum(pol.price_unit * qty) as sale_value
+from pos_order_line as pol
+LEFT join pos_order as po on pol.order_id = po.id
+Left join pos_session as ps on po.session_id = ps.id
+where po.state IN ('paid', 'done', 'invoiced')
+        AND po.location_id = 18
+        AND date_trunc('day',po.date_order) >= '2019-04-13'
+        AND date_trunc('day',po.date_order) <= '2019-04-23'
+group by pol.product_id
+) tbl_line 
+inner join product_product as pp 
+            on tbl_line.product_id = pp.id
+inner JOIN product_template AS pt 
+        ON pp.product_tmpl_id = pt.id 
+
+
+select pol.product_id,
+pol.purchase_price,
+ pol.qty, 
+pol.price_unit
+from pos_order_line as pol
+LEFT join pos_order as po on pol.order_id = po.id
+Left join pos_session as ps on po.session_id = ps.id
+where po.state IN ('paid', 'done', 'invoiced')
+        AND po.location_id = 18
+        AND date_trunc('day',po.date_order) >= '2019-04-13'
+        AND date_trunc('day',po.date_order) <= '2019-04-23'
+         AND pol.product_id = 22188;
+
+select pt.name as product_name, pol.product_id,
+    sum(purchase_price * qty) as product_purchase_price, 
+    sum(price_unit * qty) as sell_price 
+        from pos_order_line as pol 
+    LEFT join pos_order as po on pol.order_id = po.id
+    Left join pos_session as ps on po.session_id = ps.id
+    left join product_product as pp 
+            on pol.product_id = pp.id
+    left JOIN product_template AS pt 
+        ON pp.product_tmpl_id = pt.id 
+    where po.state IN ('paid', 'done', 'invoiced')
+        AND po.location_id = 18
+        AND date_trunc('day',po.date_order) >= 'Apr 13, 2019, 3:24:24 PM'
+        AND date_trunc('day',po.date_order) <= 'Apr 23, 2019, 3:24:24 PM'
+        and ps.config_id = 9
+    group by product_id, pt.name
+    order by product_purchase_price asc;
+
+select * from product_template where "name" like ('sharif M%');
+
+--select product_id, sum(price_total) from purchase_order_line where product_id = 16081 group by product_id;
+
+select * from stock_location;
+
+select * from stock_quant;]]></console>
+    </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
@@ -102,11 +136,8 @@ FROM CROSSTAB
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2" />
     <connection id="e66d322e-2094-4ac0-9849-561f088c1050" />
-    <connection id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525" />
     <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf" />
-  </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525" dataset="public.a" active-filter-id="" />
+    <connection id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -297,89 +328,6 @@ FROM CROSSTAB
           <object-name-filters />
         </object-filters>
       </connection>
-      <connection id="e9b0142a-c31f-48e5-bc82-ebb7aeec8525" active="true">
-        <database>
-          <name value="test" />
-          <description value="" />
-          <database-type value="POSTGRES" />
-          <config-type value="BASIC" />
-          <database-version value="9.5" />
-          <driver-source value="BUILTIN" />
-          <driver-library value="" />
-          <driver value="" />
-          <url-type value="DATABASE" />
-          <host value="localhost" />
-          <port value="5432" />
-          <database value="test" />
-          <type value="USER_PASSWORD" />
-          <user value="postgres" />
-          <deprecated-pwd value="cG9zdGdyZXM=" />
-        </database>
-        <properties>
-          <auto-commit value="false" />
-        </properties>
-        <ssh-settings>
-          <active value="false" />
-          <proxy-host value="" />
-          <proxy-port value="22" />
-          <proxy-user value="" />
-          <deprecated-proxy-pwd value="" />
-          <auth-type value="PASSWORD" />
-          <key-file value="" />
-          <key-passphrase value="" />
-        </ssh-settings>
-        <ssl-settings>
-          <active value="false" />
-          <certificate-authority-file value="" />
-          <client-certificate-file value="" />
-          <client-key-file value="" />
-        </ssl-settings>
-        <details>
-          <charset value="UTF-8" />
-          <session-management value="true" />
-          <ddl-file-binding value="true" />
-          <database-logging value="false" />
-          <connect-automatically value="true" />
-          <restore-workspace value="true" />
-          <restore-workspace-deep value="true" />
-          <environment-type value="default" />
-          <idle-time-to-disconnect value="30" />
-          <idle-time-to-disconnect-pool value="5" />
-          <credential-expiry-time value="10" />
-          <max-connection-pool-size value="7" />
-          <alternative-statement-delimiter value="" />
-        </details>
-        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
-          <object-type-filter use-master-settings="true">
-            <object-type name="SCHEMA" enabled="true" />
-            <object-type name="USER" enabled="true" />
-            <object-type name="ROLE" enabled="true" />
-            <object-type name="PRIVILEGE" enabled="true" />
-            <object-type name="CHARSET" enabled="true" />
-            <object-type name="TABLE" enabled="true" />
-            <object-type name="VIEW" enabled="true" />
-            <object-type name="MATERIALIZED_VIEW" enabled="true" />
-            <object-type name="NESTED_TABLE" enabled="true" />
-            <object-type name="COLUMN" enabled="true" />
-            <object-type name="INDEX" enabled="true" />
-            <object-type name="CONSTRAINT" enabled="true" />
-            <object-type name="DATASET_TRIGGER" enabled="true" />
-            <object-type name="DATABASE_TRIGGER" enabled="true" />
-            <object-type name="SYNONYM" enabled="true" />
-            <object-type name="SEQUENCE" enabled="true" />
-            <object-type name="PROCEDURE" enabled="true" />
-            <object-type name="FUNCTION" enabled="true" />
-            <object-type name="PACKAGE" enabled="true" />
-            <object-type name="TYPE" enabled="true" />
-            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
-            <object-type name="ARGUMENT" enabled="true" />
-            <object-type name="DIMENSION" enabled="true" />
-            <object-type name="CLUSTER" enabled="true" />
-            <object-type name="DBLINK" enabled="true" />
-          </object-type-filter>
-          <object-name-filters />
-        </object-filters>
-      </connection>
       <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf" active="true">
         <database>
           <name value="practice" />
@@ -463,12 +411,95 @@ FROM CROSSTAB
           <object-name-filters />
         </object-filters>
       </connection>
+      <connection id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6" active="true">
+        <database>
+          <name value="Al Baraka" />
+          <description value="" />
+          <database-type value="POSTGRES" />
+          <config-type value="BASIC" />
+          <database-version value="9.5" />
+          <driver-source value="BUILTIN" />
+          <driver-library value="" />
+          <driver value="" />
+          <url-type value="DATABASE" />
+          <host value="localhost" />
+          <port value="5432" />
+          <database value="ab-20190723" />
+          <type value="USER_PASSWORD" />
+          <user value="postgres" />
+          <deprecated-pwd value="cG9zdGdyZXM=" />
+        </database>
+        <properties>
+          <auto-commit value="false" />
+        </properties>
+        <ssh-settings>
+          <active value="false" />
+          <proxy-host value="" />
+          <proxy-port value="22" />
+          <proxy-user value="" />
+          <deprecated-proxy-pwd value="" />
+          <auth-type value="PASSWORD" />
+          <key-file value="" />
+          <key-passphrase value="" />
+        </ssh-settings>
+        <ssl-settings>
+          <active value="false" />
+          <certificate-authority-file value="" />
+          <client-certificate-file value="" />
+          <client-key-file value="" />
+        </ssl-settings>
+        <details>
+          <charset value="UTF-8" />
+          <session-management value="true" />
+          <ddl-file-binding value="true" />
+          <database-logging value="false" />
+          <connect-automatically value="true" />
+          <restore-workspace value="true" />
+          <restore-workspace-deep value="true" />
+          <environment-type value="default" />
+          <idle-time-to-disconnect value="30" />
+          <idle-time-to-disconnect-pool value="5" />
+          <credential-expiry-time value="10" />
+          <max-connection-pool-size value="7" />
+          <alternative-statement-delimiter value="" />
+        </details>
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED_VIEW" enabled="true" />
+            <object-type name="NESTED_TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="DATASET_TRIGGER" enabled="true" />
+            <object-type name="DATABASE_TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
     </connections>
     <browser-settings>
       <general>
         <display-mode value="TABBED" />
         <navigation-history-size value="100" />
-        <show-object-details value="false" />
+        <show-object-details value="true" />
       </general>
       <filters>
         <object-type-filter>
@@ -516,8 +547,8 @@ FROM CROSSTAB
         <lookup-objects>
           <object-type name="SCHEMA" enabled="true" />
           <object-type name="USER" enabled="true" />
-          <object-type name="ROLE" enabled="false" />
-          <object-type name="PRIVILEGE" enabled="false" />
+          <object-type name="ROLE" enabled="true" />
+          <object-type name="PRIVILEGE" enabled="true" />
           <object-type name="CHARSET" enabled="false" />
           <object-type name="TABLE" enabled="true" />
           <object-type name="VIEW" enabled="true" />
@@ -772,7 +803,7 @@ FROM CROSSTAB
     </code-completion-settings>
     <execution-engine-settings>
       <statement-execution>
-        <fetch-block-size value="100" />
+        <fetch-block-size value="500" />
         <execution-timeout value="20" />
         <debug-execution-timeout value="600" />
         <focus-result value="false" />

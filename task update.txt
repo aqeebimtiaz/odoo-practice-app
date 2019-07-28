@@ -85,3 +85,10 @@ Worked on generating report on supplier order receive,
 Worked on the following:
 	researched on Excel report generation for Stock Inventory.
 	Added Excel report format to supplier order receive.
+
+27-7
+Worked on generating pdf report on Profit Loss Detailed report
+
+28-7
+Worked on generating Excel report on Profit Loss Detailed report
+    Fixed bugs
