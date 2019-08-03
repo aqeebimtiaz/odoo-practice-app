@@ -25,8 +25,8 @@
     <show-object-properties value="false" />
     <loaded-nodes>
       <connection connection-id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
-        <schema name="pg_catalog" object-types="table, view, function" />
-        <schema name="public" object-types="table, view, function, column, sequence" />
+        <schema name="pg_catalog" object-types="function, view, table" />
+        <schema name="public" object-types="function, view, column, sequence, table" />
       </connection>
     </loaded-nodes>
   </component>
@@ -35,7 +35,7 @@
       <console name="Odoo" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="e66d322e-2094-4ac0-9849-561f088c1050">
-      <console name="Odoo" type="STANDARD" schema="public" session="Main"><![CDATA[--select name from res_partner where id = (select instructor_id from openacademy_session where course_id = (select id from openacademy_course where openacademy_course.name like'%Odoo%'));
+      <console name="Odoo" type="STANDARD" schema="public" session="Main">--select name from res_partner where id = (select instructor_id from openacademy_session where course_id = (select id from openacademy_course where openacademy_course.name like'%Odoo%'));
 
 --select id, instructor_id from openacademy_session where course_id = (select id from openacademy_course where openacademy_course.name like'%Odoo%');
 --select name from  openacademy_course;
@@ -49,10 +49,10 @@
 
 --select distinct res_partner.name, email from res_partner left outer join openacademy_session on res_partner.id = openacademy_session.instructor_id where instructor_id is null;  
 
---select res_partner.name from res_partner cross join openacademy_session;]]></console>
+--select res_partner.name from res_partner cross join openacademy_session;</console>
     </connection>
     <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf">
-      <console name="practice" type="STANDARD" schema="public" session="Main"><![CDATA[create extension if not exists tablefunc;
+      <console name="practice" type="STANDARD" schema="public" session="Main">create extension if not exists tablefunc;
 
 SELECT * 
 FROM CROSSTAB
@@ -60,74 +60,221 @@ FROM CROSSTAB
     	'SELECT Product_Name, Product_Category, Product_Count
     	 FROM test_crosstab
     	 ORDER BY 1,2'
-)AS T (Product_Name text, IT INT, ELE INT);]]></console>
+)AS T (Product_Name text, IT INT, ELE INT);</console>
     </connection>
     <connection id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
-      <console name="Al Baraka" type="STANDARD" schema="public" session="Main"><![CDATA[select * from pos_order_line where product_id = 11973 
-    and date_trunc('day',create_date) >= 'Apr 13, 2019, 3:24:24 PM'
-        AND date_trunc('day',create_date) <= 'Apr 23, 2019, 3:24:24 PM';
-
-select * from pos_order where id = 35950;
---date_trunc('day', pos_order_line.date_order) >= 'Apr 13, 2019, 3:24:24 PM' and date_trunc('day', pos_order_line.date_order) <= 'Apr 23, 2019, 3:24:24 PM'   ;
-
-select pt."name", cost_value, sale_value from
+      <console name="Al Baraka" type="STANDARD" schema="public" session="Main"><![CDATA[select pt."name", cost_value, sale_value from
 (
 select pol.product_id as product_id,
 sum(pol.purchase_price * qty) as cost_value, 
 sum(pol.price_unit * qty) as sale_value
 from pos_order_line as pol
-LEFT join pos_order as po on pol.order_id = po.id
-Left join pos_session as ps on po.session_id = ps.id
-where po.state IN ('paid', 'done', 'invoiced')
-        AND po.location_id = 18
-        AND date_trunc('day',po.date_order) >= '2019-04-13'
-        AND date_trunc('day',po.date_order) <= '2019-04-23'
+left join pos_order as po on pol.order_id = po.id
+left join pos_session as ps on po.session_id = ps.id
+where po.state in ('paid', 'done', 'invoiced')
+        and po.location_id = 18
+        and date_trunc('day',po.date_order) >= '2019-04-13'
+        and date_trunc('day',po.date_order) <= '2019-04-23'
 group by pol.product_id
 ) tbl_line 
 inner join product_product as pp 
             on tbl_line.product_id = pp.id
-inner JOIN product_template AS pt 
-        ON pp.product_tmpl_id = pt.id 
+inner join product_template as pt 
+        on pp.product_tmpl_id = pt.id 
 
 
 select pol.product_id,
 pol.purchase_price,
- pol.qty, 
+pol.qty, 
 pol.price_unit
 from pos_order_line as pol
-LEFT join pos_order as po on pol.order_id = po.id
-Left join pos_session as ps on po.session_id = ps.id
-where po.state IN ('paid', 'done', 'invoiced')
-        AND po.location_id = 18
-        AND date_trunc('day',po.date_order) >= '2019-04-13'
-        AND date_trunc('day',po.date_order) <= '2019-04-23'
-         AND pol.product_id = 22188;
+left join pos_order as po on pol.order_id = po.id
+left join pos_session as ps on po.session_id = ps.id
+where po.state in ('paid', 'done', 'invoiced')
+        and po.location_id = 18
+        and date_trunc('day',po.date_order) >= '2019-04-13'
+        and date_trunc('day',po.date_order) <= '2019-04-23'
+         and pol.product_id = 22188;
 
 select pt.name as product_name, pol.product_id,
     sum(purchase_price * qty) as product_purchase_price, 
     sum(price_unit * qty) as sell_price 
         from pos_order_line as pol 
-    LEFT join pos_order as po on pol.order_id = po.id
-    Left join pos_session as ps on po.session_id = ps.id
+    left join pos_order as po on pol.order_id = po.id
+    left join pos_session as ps on po.session_id = ps.id
     left join product_product as pp 
             on pol.product_id = pp.id
-    left JOIN product_template AS pt 
-        ON pp.product_tmpl_id = pt.id 
-    where po.state IN ('paid', 'done', 'invoiced')
-        AND po.location_id = 18
-        AND date_trunc('day',po.date_order) >= 'Apr 13, 2019, 3:24:24 PM'
-        AND date_trunc('day',po.date_order) <= 'Apr 23, 2019, 3:24:24 PM'
+    left join product_template as pt 
+        on pp.product_tmpl_id = pt.id 
+    where po.state in ('paid', 'done', 'invoiced')
+        and po.location_id = 18
+        and date_trunc('day',po.date_order) >= 'Apr 13, 2019, 3:24:24 PM'
+        and date_trunc('day',po.date_order) <= 'Apr 23, 2019, 3:24:24 PM'
         and ps.config_id = 9
     group by product_id, pt.name
     order by product_purchase_price asc;
 
-select * from product_template where "name" like ('sharif M%');
+select pt.name as product_name,pp.barcode,pc.name as category,
+            sq.qty, (sq.qty*ip.value_float) as cost_price,pu.name as uom from stock_quant sq
+            left join ir_property ip on (ip.name = 'standard_price' and ip.res_id = concat('product.product,',sq
+            .product_id))
+            left join product_product pp on(sq.product_id=pp.id)
+            left join product_template pt on(pp.product_tmpl_id=pt.id)
+            left join product_category pc on(pt.categ_id=pc.id)
+            left join product_uom pu on(pt.uom_id=pu.id)
+            where sq.location_id=18 order by pc.name
+            
+select
+    pt.name as product_name,
+    pp.barcode as barcode,
+    pc.name as category,
+    sq.qty as qty,
+    COALESCE(ip.value_float,0) as cost_price,
+    pu.name as uom,
+    COALESCE((sq.qty*ip.value_float),0) as Total_cost_price
+        from
+            stock_quant as sq
+            left join ir_property ip on (ip.name = 'standard_price' and ip.res_id = concat('product.product,',sq.product_id))
+            left join product_product as pp on sq.product_id=pp.id
+            left join product_template as pt on pp.product_tmpl_id=pt.id
+            left join product_category as pc on pt.categ_id=pc.id
+            left join product_uom as pu on pt.uom_id=pu.id
+        where
+--            sq.location_id= and 
+            sq.product_id = 22531
+         group by 
+         sq.product_id,pt."name",pp.barcode,pc."name",sq.qty,ip.value_float,pu."name"
+        order by
+            pc.name
+            
+select  from (
+    select 
+    sum(sq.qty), 
+    max(COALESCE(ip.value_float,0)) as cost_price,
+    sum(COALESCE((sq.qty*ip.value_float),0)) as Total_cost_price
+        from
+            stock_quant as sq
+    left join ir_property ip on (ip.name = 'standard_price' and ip.res_id = concat('product.product,',sq.product_id))
+    where sq.product_id = 22531
+    group by sq.product_id) as tbl1
+            left join product_product as pp on sq.product_id=pp.id
+            left join product_template as pt on pp.product_tmpl_id=pt.id
+            left join product_category as pc on pt.categ_id=pc.id
+            left join product_uom as pu on pt.uom_id=pu.id
+        where
+--            sq.location_id=3 and 
+            sq.product_id = 22531
+        order by
+            pc.name
 
---select product_id, sum(price_total) from purchase_order_line where product_id = 16081 group by product_id;
+select 
+    sq.qty, 
+    max(COALESCE(ip.value_float,0)) as cost_price,
+    sum(COALESCE((sq.qty*ip.value_float),0)) as Total_cost_price
+        from
+            stock_quant as sq
+    left join ir_property ip on (ip.name = 'standard_price' and ip.res_id = concat('product.product,',sq.product_id))
+    where sq.product_id = 22531
+    group by sq.product_id
+    
 
-select * from stock_location;
 
-select * from stock_quant;]]></console>
+select sl.id, sl.name from (select distinct sq.location_id as location  from stock_quant as sq)tbl1
+    inner join  stock_location as sl on tbl1.location = sl.id;
+    
+select * from product_template where id = 10442;
+select standard_price from product_product;
+select * from product_product where id = 10442;
+
+select  * from ir_property where name = 'standard_price';
+select * from product_uom;
+select id, name from stock_location
+
+select sl.id, sl.name from stock_location as sl inner join stock_quant
+
+select
+    pt.name as Product_name,
+    pp.barcode as Barcode,
+    pc.name as Category,
+    tbl2.qty,
+    pu.name as UOM,
+    tbl2.cost_price,
+    tbl2.total_cost_price
+from(
+    select tbl1.productID, 
+	sum(tbl1.qty) as qty,
+	MAX(tbl1.cost_price) as cost_price,
+	sum(tbl1.total_cost_price) as total_cost_price
+    from(
+        select 
+            sq.product_id as productID,
+            sq.qty,
+            COALESCE(ip.value_float,0) as cost_price,        
+            COALESCE((sq.qty*ip.value_float),0) as total_cost_price  
+        from 
+            stock_quant as sq
+        left join ir_property as ip on (ip.name = 'standard_price' and ip.res_id = concat('product.product,',sq.product_id))
+        where sq.location_id in (18, 15)
+--    where sq.product_id=22531
+    ) as tbl1
+    group by tbl1.productID) tbl2
+    left join product_product as pp on tbl2.productID=pp.id 
+    left join product_template as pt on pp.product_tmpl_id=pt.id
+    left join product_category as pc on pt.categ_id=pc.id
+    left join product_uom as pu on pt.uom_id=pu.id
+    
+    order by pc.name
+     ;
+
+
+
+select
+    pt.name as Product_name,
+    pp.barcode as Barcode,
+    pc.name as Category,
+    tbl2.qty,
+    pu.name as UOM,
+    tbl2.cost_price,
+    tbl2.total_cost_price
+from
+    (select  tbl1.productID, 
+        sum(tbl1.quant) as qty, 
+        MAX(tbl1.cost_price) as cost_price, 
+        sum(tbl1.total_cost_price) as total_cost_price 
+    from
+        (select 
+            sq.product_id as productID,
+            sum(sq.qty) as quant,
+            max(COALESCE(ip.value_float,0)) as cost_price,
+            sum(round(COALESCE((sq.qty*ip.value_float),0))) as total_cost_price  
+        from 
+            stock_quant as sq
+        left join ir_property as ip on (ip.name = 'standard_price' and ip.res_id = concat('product.product,',sq.product_id))
+            where sq.cost = 0 and sq.location_id in (18, 15)
+            group by sq.product_id
+        
+        UNION ALL
+        
+        select 
+            sq.product_id as productID,
+            sum(sq.qty) as quant,
+            max(COALESCE(sq.cost,0)) as cost_price,
+           sum(round(COALESCE((sq.qty*sq.cost),0))) as total_cost_price  
+        from 
+            stock_quant as sq
+            where sq.cost != 0 and sq.location_id in (18, 15)
+            group by sq.product_id
+        ) tbl1
+        group by tbl1.productID) tbl2
+        left join product_product as pp on tbl2.productID=pp.id 
+    left join product_template as pt on pp.product_tmpl_id=pt.id
+    left join product_category as pc on pt.categ_id=pc.id
+    left join product_uom as pu on pt.uom_id=pu.id
+    
+    order by pc.name
+
+select * from stock_picking
+select * from auditlog_http_request]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -424,7 +571,7 @@ select * from stock_quant;]]></console>
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="5432" />
-          <database value="ab-20190723" />
+          <database value="ab-20190801" />
           <type value="USER_PASSWORD" />
           <user value="postgres" />
           <deprecated-pwd value="cG9zdGdyZXM=" />
@@ -803,7 +950,7 @@ select * from stock_quant;]]></console>
     </code-completion-settings>
     <execution-engine-settings>
       <statement-execution>
-        <fetch-block-size value="500" />
+        <fetch-block-size value="10000" />
         <execution-timeout value="20" />
         <debug-execution-timeout value="600" />
         <focus-result value="false" />

@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/custom/operating-unit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom/server-tools" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/custom/supershop-10-addons" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/odoo-server" vcs="Git" />
   </component>

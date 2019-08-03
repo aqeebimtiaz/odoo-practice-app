@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${config:python.pythonPath}",
+            //"program": "${file}", use this to debug opened file.
+            "program": "${workspaceRoot}/odoo-server/odoo-bin",
+            "args": [
+              "--config", 
+              "${workspaceRoot}/custom/odoo-server-supershop.conf",
+              "--db_user",
+              "postgres",
+              "-d",
+              "ab-20190723"
+            ],
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            // "debugOptions": [
+            //     "WaitOnAbnormalExit",
+            //     "WaitOnNormalExit",
+            //     "RedirectOutput"
+            // ]
+        },
+    ]
+}

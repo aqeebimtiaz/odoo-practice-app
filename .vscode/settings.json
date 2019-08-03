@@ -1,0 +1,12 @@
+{
+    "database.connections": [
+        {
+            "type": "postgres",
+            "name": "postgres@localhost (Postgre SQL)",
+            "host": "localhost:5432",
+            "username": "postgres",
+            "database": "ab-20190723",
+            "password": "postgres"
+        }
+    ]
+}

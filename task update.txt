@@ -92,3 +92,25 @@ Worked on generating pdf report on Profit Loss Detailed report
 28-7
 Worked on generating Excel report on Profit Loss Detailed report
     Fixed bugs
+
+29-7
+Started working on inventory stock report based on purchase price
+    generated sql for retrieving standard price from ir_properties table
+
+30-7
+Generated stock inventory report on standard price from ir_properties table
+    prepared sql for combining cost price from stock_quant & ir_properties table
+
+31-7
+Tweaked the SQL for the inventory stock report
+Researched on Audit Log & Smile Audit Trail,
+    we've decided to merge Audit Log's AutoVacuum and User Session & HTTP Requests
+
+1-8
+Started merging Audit log with Smile Audit Trail
+    Completed Session, Requests & AutoVacuum sections.
+    Some issues remain
+3-8
+Tried to solve the issues with the merging
+    Logs table has empty requests & session fields
+    Sessions & Requests doesn't record logs fields.
