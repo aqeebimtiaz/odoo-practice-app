@@ -2,3 +2,4 @@ venv/
 custom/supershop-10-addons
 custom/odoo-server-supershop.conf
 custom/server-tools
+custom/operating-unit

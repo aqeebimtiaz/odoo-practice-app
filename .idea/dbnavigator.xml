@@ -23,7 +23,12 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="false" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
+        <schema name="pg_catalog" object-types="view, table, function" />
+        <schema name="public" object-types="column, view, table, function" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2">
@@ -270,7 +275,10 @@ from
 
 select * from ir_cron
 select * from audit_log 
-where create_date <= 'Aug 2, 2019, 5:05:01 AM' --'2019-02-05 05:05:01']]></console>
+--where create_date <= 'Aug 2, 2019, 5:05:01 AM' --'2019-02-05 05:05:01'
+
+select * from auditlog_http_request
+update  audit_log set auditlog_http_request_id=16]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

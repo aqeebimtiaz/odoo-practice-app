@@ -118,3 +118,8 @@ Tried to solve the issues with the merging
 4-8
 Resolved logs deletion in bulk
     Need to work on cron job
+
+5-8
+Worked on HTTP request & Log id issues,
+    Fixed bulk delete of logs,
+    work left on cron jobs.
