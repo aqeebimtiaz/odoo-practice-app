@@ -114,3 +114,7 @@ Started merging Audit log with Smile Audit Trail
 Tried to solve the issues with the merging
     Logs table has empty requests & session fields
     Sessions & Requests doesn't record logs fields.
+
+4-8
+Resolved logs deletion in bulk
+    Need to work on cron job
