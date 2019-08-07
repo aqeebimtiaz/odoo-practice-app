@@ -486,3 +486,6 @@ exit
 /odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
 /odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
 exit
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+exit
+exit

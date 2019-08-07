@@ -123,3 +123,17 @@ Resolved logs deletion in bulk
 Worked on HTTP request & Log id issues,
     Fixed bulk delete of logs,
     work left on cron jobs.
+
+6-8
+Worked on 
+	relations of HTTP Requests & Logs,
+	relations of Rule & Session, Rule & Logs
+Finished fulfilling the requirements of Audit module
+(The cron job condition needs a review)
+
+7-8
+Researched on Accounting module,
+	concepts of Debit & Credit
+	Journal, 
+	Journal Entries, 
+	Journal Items
