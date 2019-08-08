@@ -137,3 +137,12 @@ Researched on Accounting module,
 	Journal, 
 	Journal Entries, 
 	Journal Items
+
+8-8
+Researched on Journal Entries for POS system
+Edited Bay Audit Trail for App Index page
+	Edited Images,
+		HTML,
+	Reordered Menu Items
+Edited bugs on Stock Inventory Report New.
+	(some bugs still left)
