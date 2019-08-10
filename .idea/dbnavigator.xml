@@ -23,19 +23,14 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
-        <schema name="pg_catalog" object-types="table, view, function" />
-        <schema name="public" object-types="table, view, column, function" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2">
       <console name="Odoo" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="e66d322e-2094-4ac0-9849-561f088c1050">
-      <console name="Odoo" type="STANDARD" schema="public" session="Main">--select name from res_partner where id = (select instructor_id from openacademy_session where course_id = (select id from openacademy_course where openacademy_course.name like'%Odoo%'));
+      <console name="Odoo" type="STANDARD" schema="public" session="Main"><![CDATA[--select name from res_partner where id = (select instructor_id from openacademy_session where course_id = (select id from openacademy_course where openacademy_course.name like'%Odoo%'));
 
 --select id, instructor_id from openacademy_session where course_id = (select id from openacademy_course where openacademy_course.name like'%Odoo%');
 --select name from  openacademy_course;
@@ -49,10 +44,10 @@
 
 --select distinct res_partner.name, email from res_partner left outer join openacademy_session on res_partner.id = openacademy_session.instructor_id where instructor_id is null;  
 
---select res_partner.name from res_partner cross join openacademy_session;</console>
+--select res_partner.name from res_partner cross join openacademy_session;]]></console>
     </connection>
     <connection id="1611c168-b287-4fe8-b9d1-c48bcf4fa3cf">
-      <console name="practice" type="STANDARD" schema="public" session="Main">create extension if not exists tablefunc;
+      <console name="practice" type="STANDARD" schema="public" session="Main"><![CDATA[create extension if not exists tablefunc;
 
 SELECT * 
 FROM CROSSTAB
@@ -60,7 +55,7 @@ FROM CROSSTAB
     	'SELECT Product_Name, Product_Category, Product_Count
     	 FROM test_crosstab
     	 ORDER BY 1,2'
-)AS T (Product_Name text, IT INT, ELE INT);</console>
+)AS T (Product_Name text, IT INT, ELE INT);]]></console>
     </connection>
     <connection id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
       <console name="Al Baraka" type="STANDARD" schema="public" session="Main"><![CDATA[select pt."name", cost_value, sale_value from
@@ -273,7 +268,83 @@ from
     
     order by pc.name
 
-select * from]]></console>
+select * from audit_log]]></console>
+      <console name="Test For AlBaraka" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT
+			pt.name AS Product_name,
+				pp.barcode AS Barcode,
+				pc.name AS Category,
+				tbl2.qty,
+				pu.name AS UOM,
+				tbl2.cost_price,
+				tbl2.total_cost_price
+			FROM
+				(SELECT tbl1.productID,
+                    sum(tbl1.qty) AS qty,
+                    MAX(tbl1.cost_price) AS cost_price,
+                    sum(tbl1.total_cost_price) AS total_cost_price
+                FROM
+                    (SELECT sq.product_id AS productID,
+                        sq.qty,
+                        COALESCE(ip.value_float, 0) AS cost_price,
+                        COALESCE((sq.qty*ip.value_float),0) AS total_cost_price
+                    FROM stock_quant AS sq
+                    LEFT JOIN ir_property AS ip ON (ip.name = 'standard_price'
+                        AND ip.res_id = concat('product.product,', sq.product_id)
+                        ) WHERE  sq.location_id IN (18) 
+--                        AND pt.categ_id IN (626, 625, 624, 632, 633, 620, 623, 629, 525, 630, 611, 627, 631, 353, 622, 621, 628, 608, 537)
+			) AS tbl1
+		GROUP BY tbl1.productID) tbl2
+		LEFT JOIN product_product AS pp ON tbl2.productID=pp.id
+		LEFT JOIN product_template AS pt ON pp.product_tmpl_id=pt.id
+		LEFT JOIN product_category AS pc ON pt.categ_id=pc.id
+		LEFT JOIN product_uom AS pu ON pt.uom_id=pu.id
+		WHERE pt.categ_id IN (626, 625, 624, 632, 633, 620, 623, 629, 525, 630, 611, 627, 631, 353, 622, 621, 628, 608, 537)
+		ORDER BY pc.name ;
+
+
+
+			SELECT pt.name AS Product_name,
+				pp.barcode AS Barcode,
+				pc.name AS Category,
+				tbl2.qty,
+				pu.name AS UOM,
+				tbl2.cost_price,
+				tbl2.total_cost_price
+			FROM
+				(SELECT tbl1.productID,
+					sum(tbl1.quant) AS qty,
+					MAX(tbl1.cost_price) AS cost_price,
+					sum(tbl1.total_cost_price) AS total_cost_price
+				FROM
+				(SELECT sq.product_id AS productID,
+					sum(sq.qty) AS quant,
+					max(COALESCE(ip.value_float, 0)) AS cost_price,
+					sum(round(COALESCE((sq.qty*ip.value_float),0))) AS total_cost_price
+				FROM stock_quant AS sq
+				LEFT JOIN ir_property AS ip ON (ip.name = 'standard_price'
+					AND ip.res_id = concat('product.product,', sq.product_id))
+				WHERE sq.cost = 0
+					AND  sq.location_id IN (15, 18)
+				GROUP BY sq.product_id
+				
+				UNION ALL
+				
+				SELECT sq.product_id AS productID,
+					sum(sq.qty) AS quant,
+					max(COALESCE(sq.cost, 0)) AS cost_price,
+					sum(round(COALESCE((sq.qty*sq.cost),0))) AS total_cost_price
+				FROM stock_quant AS sq
+				WHERE sq.cost != 0
+					AND  sq.location_id IN (15, 18)
+				GROUP BY sq.product_id
+			) tbl1
+			GROUP BY tbl1.productID) tbl2
+			LEFT JOIN product_product AS pp ON tbl2.productID=pp.id
+			LEFT JOIN product_template AS pt ON pp.product_tmpl_id=pt.id
+			LEFT JOIN product_category AS pc ON pt.categ_id=pc.id
+			LEFT JOIN product_uom AS pu ON pt.uom_id=pu.id
+			WHERE pt.categ_id IN (626, 625, 624, 632, 633, 620, 623, 629, 525, 630, 611, 627, 631, 353, 622, 621, 628, 608, 537)
+			ORDER BY pc.name]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

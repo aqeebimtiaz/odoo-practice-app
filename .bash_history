@@ -1,5 +1,3 @@
-exit
-sudo /odoo/odoo-server/odoo-bin --addons-path=/odoo/odoo-server/addons,/odoo/odoo-server/odoo/addons,/odoo/custom/addons -d OpenERP -u openacademy
 /odoo/odoo-server/odoo-bin --addons-path=/odoo/odoo-server/addons,/odoo/odoo-server/odoo/addons,/odoo/custom/addons -d OpenERP -u openacademy
 /odoo/odoo-server/odoo-bin --addons-path=/odoo/odoo-server/addons,/odoo/odoo-server/odoo/addons,/odoo/custom/addons -d OpenERP -u openacademy
 exit
@@ -488,4 +486,15 @@ exit
 exit
 /odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
 exit
+exit
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u all
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u bay_audit_trail
+exit
+/odoo/odoo-server/odoo-bin -c /odoo/custom/odoo-server-supershop.conf -d ab-20190801 -u all
 exit
