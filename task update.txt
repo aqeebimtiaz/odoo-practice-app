@@ -147,11 +147,34 @@ Edited Bay Audit Trail for App Index page
 Edited bugs on Stock Inventory Report New.
 	(some bugs still left)
 
-9-9
+9-8
 Fixed the rest of the bugs on Stock inventory report new,
     fixed SQL query issue for categories,
 Fixed margin calculation issue on Profit Loss Detailed Report
     both on Excel & PDF
 Handed over Bay Audit Trail,
     Stock Inventory Report New &
-    Profit Loss Detailed Report for merging to live project
+    Profit Loss Detailed Report for merging to live
+
+10-8
+Installed HR Modules
+Researched on Accounting & HR modules, Attendances.
+
+=============
+11/8 - 16/8
+EID VACATION
+=============
+
+17-8
+Researched on
+    Recruiting,
+    Contract,
+    Employees,
+    Related User,
+    Leave Applications,
+    Leave Allocations,
+    Survey Form,
+    Payslip,
+    Project,
+    Time Sheets,
+    Design Web Sites.
