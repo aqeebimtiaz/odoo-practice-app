@@ -178,3 +178,17 @@ Researched on
     Project,
     Time Sheets,
     Design Web Sites.
+
+18-8
+Started with Payroll codes,
+    Payroll rules,
+
+19-8
+Tried to fix the issue of Payroll Rule calculation.
+    Need to review 'worked_days' object
+
+20-8
+Tried debugging to figure out 'worked_days' object issue.
+    (Didn't completely solve the issue. Need further investigation.)
+    (Look into hr_payroll class)
+Started with BEL ERP project.

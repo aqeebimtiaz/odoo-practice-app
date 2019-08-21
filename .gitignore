@@ -1,5 +1,12 @@
 venv/
+*
+!custom/addons
 custom/supershop-10-addons
 custom/odoo-server-supershop.conf
 custom/server-tools
 custom/operating-unit
+custom/extra-modules
+custom/odoo-10-addons
+.local/
+odoo-server/
+.vscode/

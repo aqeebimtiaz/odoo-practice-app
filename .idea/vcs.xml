@@ -2,9 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom/connector-telephony" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom/demo-restaurants-10-addons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom/odoo-10-addons" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/custom/operating-unit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom/pos-addons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom/reporting-engine" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/custom/server-tools" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/custom/supershop-10-addons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom/tko-addons" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/odoo-server" vcs="Git" />
   </component>
 </project>
