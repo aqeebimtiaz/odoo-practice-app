@@ -192,3 +192,16 @@ Tried debugging to figure out 'worked_days' object issue.
     (Didn't completely solve the issue. Need further investigation.)
     (Look into hr_payroll class)
 Started with BEL ERP project.
+
+21-8
+Started with BEL ERP GUI Training:
+    Mechandinsing,
+    Inventory CDC,
+Fixed user permission issue on Bay Audit Trail.
+
+22-8
+Started working on SIR on Bay ERP.
+    researching on column names.
+
+24-8
+Continued research on SIR.

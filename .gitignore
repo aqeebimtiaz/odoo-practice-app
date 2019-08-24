@@ -1,5 +1,5 @@
 venv/
-*
+custom/*
 !custom/addons
 custom/supershop-10-addons
 custom/odoo-server-supershop.conf

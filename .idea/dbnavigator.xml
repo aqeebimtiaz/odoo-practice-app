@@ -328,7 +328,12 @@ select * from hr_payslip]]></console>
 			ORDER BY pc.name]]></console>
     </connection>
     <connection id="5e1d5eb4-9bd0-4f72-9490-259d28e07e99">
-      <console name="BEL" type="STANDARD" schema="information_schema" session="Main" />
+      <console name="BEL" type="STANDARD" schema="public" session="Main"><![CDATA[select * from pos_order_line where order_id = 793323
+
+select 
+    display_name, 
+    short_code 
+    from res_partner where supplier = true]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -839,7 +844,7 @@ select * from hr_payslip]]></console>
           <object-type name="VIEW" enabled="true" />
           <object-type name="MATERIALIZED VIEW" enabled="true" />
           <object-type name="NESTED TABLE" enabled="false" />
-          <object-type name="COLUMN" enabled="false" />
+          <object-type name="COLUMN" enabled="true" />
           <object-type name="INDEX" enabled="true" />
           <object-type name="CONSTRAINT" enabled="true" />
           <object-type name="DATASET TRIGGER" enabled="true" />
