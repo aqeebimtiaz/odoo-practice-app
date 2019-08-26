@@ -205,3 +205,14 @@ Started working on SIR on Bay ERP.
 
 24-8
 Continued research on SIR.
+
+25-8
+Started working Aging Report of Articles by Plan No.
+    Researched on each column name to figure out inconsitencies.
+
+26-8
+Worked on Aging Report of Articles by Plan No.
+    Fixed year wise sale, quantity, stock filtering issue.
+    Fixed current year's season data,
+        enabled filtering data by dividing in 6 months.
+    Some code has been kept to make the code compatible if the requirements change.
