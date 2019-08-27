@@ -23,13 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="5e1d5eb4-9bd0-4f72-9490-259d28e07e99">
-        <schema name="information_schema" object-types="table, function, view" />
-        <schema name="pg_catalog" object-types="table, function, view" />
-        <schema name="public" object-types="sequence, constraint, table, function, view, dataset trigger, column" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2">
@@ -42,7 +36,7 @@
       <console name="practice" type="STANDARD" schema="public" session="Main" />
     </connection>
     <connection id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
-      <console name="Al Baraka" type="STANDARD" schema="public" session="Main">select pt.&quot;name&quot;, cost_value, sale_value from
+      <console name="Al Baraka" type="STANDARD" schema="public" session="Main"><![CDATA[select pt."name", cost_value, sale_value from
 (
 select pol.product_id as product_id,
 sum(pol.purchase_price * qty) as cost_value, 
@@ -52,8 +46,8 @@ left join pos_order as po on pol.order_id = po.id
 left join pos_session as ps on po.session_id = ps.id
 where po.state in ('paid', 'done', 'invoiced')
         and po.location_id = 18
-        and date_trunc('day',po.date_order) &gt;= '2019-04-13'
-        and date_trunc('day',po.date_order) &lt;= '2019-04-23'
+        and date_trunc('day',po.date_order) >= '2019-04-13'
+        and date_trunc('day',po.date_order) <= '2019-04-23'
 group by pol.product_id
 ) tbl_line 
 inner join product_product as pp 
@@ -71,8 +65,8 @@ left join pos_order as po on pol.order_id = po.id
 left join pos_session as ps on po.session_id = ps.id
 where po.state in ('paid', 'done', 'invoiced')
         and po.location_id = 18
-        and date_trunc('day',po.date_order) &gt;= '2019-04-13'
-        and date_trunc('day',po.date_order) &lt;= '2019-04-23'
+        and date_trunc('day',po.date_order) >= '2019-04-13'
+        and date_trunc('day',po.date_order) <= '2019-04-23'
          and pol.product_id = 22188;
 
 select pt.name as product_name, pol.product_id,
@@ -87,8 +81,8 @@ select pt.name as product_name, pol.product_id,
         on pp.product_tmpl_id = pt.id 
     where po.state in ('paid', 'done', 'invoiced')
         and po.location_id = 18
-        and date_trunc('day',po.date_order) &gt;= 'Apr 13, 2019, 3:24:24 PM'
-        and date_trunc('day',po.date_order) &lt;= 'Apr 23, 2019, 3:24:24 PM'
+        and date_trunc('day',po.date_order) >= 'Apr 13, 2019, 3:24:24 PM'
+        and date_trunc('day',po.date_order) <= 'Apr 23, 2019, 3:24:24 PM'
         and ps.config_id = 9
     group by product_id, pt.name
     order by product_purchase_price asc;
@@ -122,7 +116,7 @@ select
 --            sq.location_id= and 
             sq.product_id = 22531
          group by 
-         sq.product_id,pt.&quot;name&quot;,pp.barcode,pc.&quot;name&quot;,sq.qty,ip.value_float,pu.&quot;name&quot;
+         sq.product_id,pt."name",pp.barcode,pc."name",sq.qty,ip.value_float,pu."name"
         order by
             pc.name
             
@@ -255,8 +249,8 @@ from
 select * from audit_log
 
 select * from hr_payslip_worked_days
-select * from hr_payslip</console>
-      <console name="Test For AlBaraka" type="STANDARD" schema="public" session="Main">SELECT
+select * from hr_payslip]]></console>
+      <console name="Test For AlBaraka" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT
 			pt.name AS Product_name,
 				pp.barcode AS Barcode,
 				pc.name AS Category,
@@ -331,10 +325,10 @@ select * from hr_payslip</console>
 			LEFT JOIN product_category AS pc ON pt.categ_id=pc.id
 			LEFT JOIN product_uom AS pu ON pt.uom_id=pu.id
 			WHERE pt.categ_id IN (626, 625, 624, 632, 633, 620, 623, 629, 525, 630, 611, 627, 631, 353, 622, 621, 628, 608, 537)
-			ORDER BY pc.name</console>
+			ORDER BY pc.name]]></console>
     </connection>
     <connection id="5e1d5eb4-9bd0-4f72-9490-259d28e07e99">
-      <console name="BEL" type="STANDARD" schema="public" session="Main">SELECT
+      <console name="BEL" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT
                 ROW_NUMBER() OVER(
                     ORDER BY
                         --article_info.article_type,
@@ -414,8 +408,8 @@ select * from hr_payslip</console>
                     LEFT JOIN product_status AS ps ON pt.product_status_id = ps.id
                     LEFT JOIN product_brand AS pb ON pb.id = pt.brand_id
                 WHERE
-                    date_trunc('day', po.date_order) &gt;= '2019-05-04'
-                    AND date_trunc('day', po.date_order) &lt;= '2019-05-10'
+                    date_trunc('day', po.date_order) >= '2019-05-04'
+                    AND date_trunc('day', po.date_order) <= '2019-05-10'
                     AND pt.article_prod_type = 'footwear'
                     AND po.state IN ('paid','invoiced','done')
                     AND po.location_id IN (85)
@@ -553,7 +547,7 @@ select * from hr_payslip</console>
                 article_info.design_serial,
                 article_info.article_code,
                 merge_info.plan_no
-                --article_info.lst_delivery DESC</console>
+                --article_info.lst_delivery DESC]]></console>
       <console name="BEL 1" type="STANDARD" schema="public" session="Main"><![CDATA[select * from aging_report_wizard]]></console>
     </connection>
   </component>

@@ -216,3 +216,9 @@ Worked on Aging Report of Articles by Plan No.
     Fixed current year's season data,
         enabled filtering data by dividing in 6 months.
     Some code has been kept to make the code compatible if the requirements change.
+
+27-8
+Completed documentation on Aging Report of Articles by Plan No.
+	Saved to BEL Common File Server.
+Researched on Aging Report by Category by Plan No.
+Started researching on Stock Accounting.
