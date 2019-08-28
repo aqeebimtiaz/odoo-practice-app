@@ -222,3 +222,10 @@ Completed documentation on Aging Report of Articles by Plan No.
 	Saved to BEL Common File Server.
 Researched on Aging Report by Category by Plan No.
 Started researching on Stock Accounting.
+
+28-8
+Researched on Stock Accounting
+    Researched on SQL queries,
+    return data, etc.
+Researched on CI/CD of BitBucket
+Worked on amarbay.com E-Commerce banner image change.

@@ -23,7 +23,12 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="5e1d5eb4-9bd0-4f72-9490-259d28e07e99">
+        <schema name="pg_catalog" object-types="view, table, function" />
+        <schema name="public" object-types="constraint, view, column, dataset trigger, table, function" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="6a911aae-29d0-4dfc-a40c-8f54bad797c2">
@@ -329,225 +334,49 @@ select * from hr_payslip]]></console>
     </connection>
     <connection id="5e1d5eb4-9bd0-4f72-9490-259d28e07e99">
       <console name="BEL" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT
-                ROW_NUMBER() OVER(
-                    ORDER BY
-                        --article_info.article_type,
-                        --article_info.department_sequence,
-                        --article_info.category_name,
-                        --article_info.article_src,
-                        --article_info.design_serial,
-                        --article_info.a_sequence,
-                        --article_info.sale_price DESC ,
-                        article_info.article_code,
-                        merge_info.plan_no
-                ) AS num ,
-                article_info.article_code AS article_code,
-                COALESCE(merge_info.plan_no,0) AS plan_no,
-                article_info.article_type,
-                article_info.product_department,
-                article_info.department_sequence,
-                article_info.category_name AS category_name,
-                article_info.sale_price AS sale_price,
-                article_info.design_serial AS design_serial,
-                article_info.article_src AS article_src,
-                article_info.article_status AS article_status,
-                article_info.a_sequence AS a_sequence,
-                article_info.product_brand AS product_brand,
-                --article_info.lst_delivery AS lst_delivery,
-                COALESCE(merge_info.sale_qty,0) AS sale_qty,
-                COALESCE(merge_info.sale_value,0) AS sale_value,
-                COALESCE(merge_info.closing_qty,0) AS stock_qty,
-                COALESCE(merge_info.closing_value,0) AS stock_value
-            FROM 
-                (
-            SELECT
-                pro_tmpl_id,
-                plan_no,
-                SUM(sale_qty) AS sale_qty,
-                SUM(sale_value) AS sale_value,
-                SUM(closing_qty) AS closing_qty,
-                SUM(closing_value) AS closing_value
+                COALESCE(SUM(product_qty_in - product_qty_out),0) AS qty_in_opn,
+                COALESCE(SUM(value_in - value_out),0) AS value_in_opn
             FROM (
                 SELECT
-                    pro_tmpl_id,
-                    COALESCE(plan_no, 0) AS plan_no,
-                    COALESCE(SUM(sale_qty), 0) AS sale_qty,
-                    COALESCE(SUM(sale_value), 0) AS sale_value,
-                    COALESCE(SUM(closing_qty), 0) AS closing_qty,
-                    COALESCE(SUM(closing_value), 0) AS closing_value
-                FROM (
-                    SELECT
-                        sale_info.pro_tmpl_id AS pro_tmpl_id,
-                        sale_info.plan_no AS plan_no,
-                        COALESCE(SUM(sale_info.sale_qty), 0) AS sale_qty,
-                        COALESCE(SUM(sale_info.sale_value), 0) AS sale_value,
-                        0 AS closing_qty, 
-                        0 AS closing_value
-                    FROM (
-            SELECT
-                pro_tmpl_id,
-                plan_no,
-                SUM(sale_qty) AS sale_qty,
-                SUM(sale_value) AS sale_value
-            FROM (
-                SELECT
-                    pt.id AS pro_tmpl_id,
-                    spl.plan_no AS plan_no,
-                    pol.qty AS sale_qty,
-                    ROUND((pol.price_unit) * (1 - (pol.discount) / 100.0)*(pol.qty)) AS sale_value
-                FROM
-                    pos_order_line AS pol
-                    LEFT JOIN pos_order po on pol.order_id = po.id
-                    LEFT JOIN pos_pack_operation_lot AS ppol ON pol.id = ppol.pos_order_line_id
-                    --LEFT JOIN stock_production_lot spl on spl.name = ppol.lot_name
-                    LEFT JOIN stock_production_lot spl on spl.name = ppol.lot_name AND pol.product_id = spl.product_id 
-                    --AND spl.location_id = po.location_id
-                    LEFT JOIN product_product pp on pol.product_id = pp.id
-                    LEFT JOIN product_template pt on pp.product_tmpl_id = pt.id
-                    LEFT JOIN product_category AS pc on pt.categ_id = pc.id
-                    LEFT JOIN product_status AS ps ON pt.product_status_id = ps.id
-                    LEFT JOIN product_brand AS pb ON pb.id = pt.brand_id
+                    CASE
+                        WHEN pt.article_prod_type='footwear'
+                            THEN sum(sm.product_uom_qty)
+                        ELSE 0
+                    END AS product_qty_in,
+                    0 AS product_qty_out,
+                    sum(sm.product_uom_qty * sm.sale_price) AS value_in,
+                    0 AS value_out
+                FROM stock_move AS sm
+                    LEFT JOIN product_product AS pp ON sm.product_id = pp.id
+                    LEFT JOIN product_template AS pt ON pp.product_tmpl_id = pt.id
                 WHERE
-                    date_trunc('day', po.date_order) >= '2019-05-04'
-                    AND date_trunc('day', po.date_order) <= '2019-05-10'
-                    AND pt.article_prod_type = 'footwear'
-                    AND po.state IN ('paid','invoiced','done')
-                    AND po.location_id IN (85)
-                    
-                    
-                    
+                    date_trunc('day',sm.date) < '2019-05-04'
+                    AND sm.state = 'done'
+                    AND sm.location_dest_id = 77
                 GROUP BY
-                    spl.plan_no,
-                    pol.id,
                     pt.id
-            ) tbl
-            GROUP BY
-                pro_tmpl_id,
-                plan_no
-        ) AS sale_info
-                    GROUP BY 
-                        sale_info.pro_tmpl_id,
-                        sale_info.plan_no
-    
-                    UNION ALL 
-    
-                    SELECT 
-                        stock_info.pro_tmpl_id AS pro_tmpl_id,
-                        COALESCE(stock_info.plan_no, 0) AS plan_no,
-                        0 AS sale_qty, 
-                        0 AS sale_value,
-                        COALESCE(SUM(stock_info.closing_qty), 0) AS closing_qty,
-                        COALESCE(SUM(stock_info.closing_value), 0) AS closing_value
-                    FROM (
-            SELECT 
-                pro_tmpl_id,
-                plan_no,
-                SUM(st_qty) AS closing_qty,
-                SUM(st_value)  AS closing_value
-            FROM (
-                SELECT 
-                    pt.id AS pro_tmpl_id,
-                    COALESCE(spl.plan_no, 0) AS plan_no,
-                    sq.qty AS st_qty,
-                    (sq.qty * pt.list_price) AS st_value
-                FROM
-                    stock_quant sq
-                    LEFT JOIN product_product pp ON sq.product_id = pp.id
-                    LEFT JOIN product_template pt ON pt.id = pp.product_tmpl_id
-                    LEFT JOIN product_category AS pc on pc.id = pt.categ_id
-                    LEFT JOIN product_status AS ps ON ps.id = pt.product_status_id
-                    LEFT JOIN product_brand AS pb ON pb.id = pt.brand_id
-                    LEFT JOIN stock_production_lot spl on spl.id = sq.lot_id
-                WHERE 
-                    sq.location_id IN (85)
-                    AND pt.article_prod_type = 'footwear'
-                    
-                    
-                    
-            ) tbl_quant
-            GROUP BY 
-                pro_tmpl_id,
-                plan_no
-        ) AS stock_info
-                    GROUP BY 
-                        stock_info.pro_tmpl_id,
-                        stock_info.plan_no
-                ) tbl_close
-                GROUP BY 
-                    pro_tmpl_id,
-                    plan_no
-            ) tbl_final
-            GROUP BY 
-                pro_tmpl_id, 
-                plan_no
-        ) AS merge_info
-                LEFT JOIN (
-            SELECT
-                pt.id AS product_tmpl_id,
-                pt.article_code AS article_code,
-                pt.article_prod_type AS article_type,
-                pd.name AS product_department,
-                pd.sequence AS department_sequence,
-                pc1.name AS category_name,
-                pt.list_price AS sale_price,
-                pt.product_design_serial AS design_serial,
-                pt.product_source_id AS article_src,
-                ps.short_code_id AS article_status,
-                ps.sequence AS a_sequence,
-                pb.name AS product_brand
-            FROM
-                product_template AS pt
-                LEFT JOIN product_product AS pp ON pt.id = pp.product_tmpl_id
-                LEFT JOIN product_status AS ps ON pt.product_status_id = ps.id
-                LEFT JOIN product_department AS pd ON pt.product_department_id = pd.id
-                LEFT JOIN product_category AS pc ON pt.categ_id = pc.id
-                LEFT JOIN product_category AS pc1 ON pc.parent_id = pc1.id
-                LEFT JOIN product_brand AS pb ON pb.id = pt.brand_id
-            WHERE
-                pt.is_article = True
-                AND pt.state = 'approve'
-                
-                
-                
-            GROUP BY
-                pd.name,
-                pd.sequence,
-                pc1.id,
-                pt.id,
-                pc.id,
-                ps.id,
-                pb.id,
-                pp.id
-        ) AS article_info ON merge_info.pro_tmpl_id = article_info.product_tmpl_id
-            GROUP BY 
-                article_info.article_type,
-                article_info.product_department,
-                article_info.department_sequence,
-                article_info.category_name,
-                article_info.product_brand,
-                article_info.article_code,
-                merge_info.plan_no,
-                article_info.sale_price,
-                article_info.design_serial,
-                article_info.article_src,
-                article_info.article_status,
-                article_info.a_sequence,
-                merge_info.sale_qty,
-                merge_info.sale_value,
-                merge_info.closing_qty,
-                merge_info.closing_value
-                --article_info.lst_delivery
-            ORDER BY
-                article_info.article_type,
-                article_info.department_sequence,
-                article_info.category_name,
-                article_info.a_sequence,
-                article_info.sale_price,
-                article_info.article_src,
-                article_info.design_serial,
-                article_info.article_code,
-                merge_info.plan_no
-                --article_info.lst_delivery DESC]]></console>
+
+                UNION ALL
+
+                SELECT
+                    0 AS product_qty_in,
+                    CASE
+                        WHEN pt.article_prod_type='footwear'
+                            THEN sum(sm.product_uom_qty)
+                        ELSE 0
+                    END AS product_qty_out,
+                    0 AS value_in,
+                    sum(sm.product_uom_qty * sm.sale_price) AS value_out
+                FROM stock_move AS sm
+                    LEFT JOIN product_product AS pp ON sm.product_id = pp.id
+                    LEFT JOIN product_template AS pt ON pp.product_tmpl_id = pt.id
+                WHERE
+                    date_trunc('day',sm.date) <'2019-05-04'
+                    AND sm.state = 'done'
+                    AND sm.location_id = 77
+                GROUP BY
+                    pt.id
+            ) tbl_open]]></console>
       <console name="BEL 1" type="STANDARD" schema="public" session="Main"><![CDATA[select * from aging_report_wizard]]></console>
     </connection>
   </component>
