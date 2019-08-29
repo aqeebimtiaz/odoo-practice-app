@@ -25,8 +25,8 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="5e1d5eb4-9bd0-4f72-9490-259d28e07e99">
-        <schema name="pg_catalog" object-types="view, table, function" />
-        <schema name="public" object-types="constraint, view, column, dataset trigger, table, function" />
+        <schema name="pg_catalog" object-types="table, view, function" />
+        <schema name="public" object-types="column, table, view, function" />
       </connection>
     </loaded-nodes>
   </component>
@@ -41,7 +41,7 @@
       <console name="practice" type="STANDARD" schema="public" session="Main" />
     </connection>
     <connection id="a1c56131-fb03-4f31-95fe-6a6f0ca987d6">
-      <console name="Al Baraka" type="STANDARD" schema="public" session="Main"><![CDATA[select pt."name", cost_value, sale_value from
+      <console name="Al Baraka" type="STANDARD" schema="public" session="Main">select pt.&quot;name&quot;, cost_value, sale_value from
 (
 select pol.product_id as product_id,
 sum(pol.purchase_price * qty) as cost_value, 
@@ -51,8 +51,8 @@ left join pos_order as po on pol.order_id = po.id
 left join pos_session as ps on po.session_id = ps.id
 where po.state in ('paid', 'done', 'invoiced')
         and po.location_id = 18
-        and date_trunc('day',po.date_order) >= '2019-04-13'
-        and date_trunc('day',po.date_order) <= '2019-04-23'
+        and date_trunc('day',po.date_order) &gt;= '2019-04-13'
+        and date_trunc('day',po.date_order) &lt;= '2019-04-23'
 group by pol.product_id
 ) tbl_line 
 inner join product_product as pp 
@@ -70,8 +70,8 @@ left join pos_order as po on pol.order_id = po.id
 left join pos_session as ps on po.session_id = ps.id
 where po.state in ('paid', 'done', 'invoiced')
         and po.location_id = 18
-        and date_trunc('day',po.date_order) >= '2019-04-13'
-        and date_trunc('day',po.date_order) <= '2019-04-23'
+        and date_trunc('day',po.date_order) &gt;= '2019-04-13'
+        and date_trunc('day',po.date_order) &lt;= '2019-04-23'
          and pol.product_id = 22188;
 
 select pt.name as product_name, pol.product_id,
@@ -86,8 +86,8 @@ select pt.name as product_name, pol.product_id,
         on pp.product_tmpl_id = pt.id 
     where po.state in ('paid', 'done', 'invoiced')
         and po.location_id = 18
-        and date_trunc('day',po.date_order) >= 'Apr 13, 2019, 3:24:24 PM'
-        and date_trunc('day',po.date_order) <= 'Apr 23, 2019, 3:24:24 PM'
+        and date_trunc('day',po.date_order) &gt;= 'Apr 13, 2019, 3:24:24 PM'
+        and date_trunc('day',po.date_order) &lt;= 'Apr 23, 2019, 3:24:24 PM'
         and ps.config_id = 9
     group by product_id, pt.name
     order by product_purchase_price asc;
@@ -121,7 +121,7 @@ select
 --            sq.location_id= and 
             sq.product_id = 22531
          group by 
-         sq.product_id,pt."name",pp.barcode,pc."name",sq.qty,ip.value_float,pu."name"
+         sq.product_id,pt.&quot;name&quot;,pp.barcode,pc.&quot;name&quot;,sq.qty,ip.value_float,pu.&quot;name&quot;
         order by
             pc.name
             
@@ -254,8 +254,8 @@ from
 select * from audit_log
 
 select * from hr_payslip_worked_days
-select * from hr_payslip]]></console>
-      <console name="Test For AlBaraka" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT
+select * from hr_payslip</console>
+      <console name="Test For AlBaraka" type="STANDARD" schema="public" session="Main">SELECT
 			pt.name AS Product_name,
 				pp.barcode AS Barcode,
 				pc.name AS Category,
@@ -330,54 +330,40 @@ select * from hr_payslip]]></console>
 			LEFT JOIN product_category AS pc ON pt.categ_id=pc.id
 			LEFT JOIN product_uom AS pu ON pt.uom_id=pu.id
 			WHERE pt.categ_id IN (626, 625, 624, 632, 633, 620, 623, 629, 525, 630, 611, 627, 631, 353, 622, 621, 628, 608, 537)
-			ORDER BY pc.name]]></console>
+			ORDER BY pc.name</console>
     </connection>
     <connection id="5e1d5eb4-9bd0-4f72-9490-259d28e07e99">
       <console name="BEL" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT
-                COALESCE(SUM(product_qty_in - product_qty_out),0) AS qty_in_opn,
-                COALESCE(SUM(value_in - value_out),0) AS value_in_opn
+                COALESCE(SUM(sale_value),0) AS shop_callback_value,
+                COALESCE(SUM(sale_qty),0) AS shop_callback_qty
             FROM (
                 SELECT
+                    COALESCE(sum(sm.product_uom_qty * sm.sale_price), 0) sale_value,
                     CASE
                         WHEN pt.article_prod_type='footwear'
-                            THEN sum(sm.product_uom_qty)
+                            THEN COALESCE(sum(sm.product_uom_qty),0)
                         ELSE 0
-                    END AS product_qty_in,
-                    0 AS product_qty_out,
-                    sum(sm.product_uom_qty * sm.sale_price) AS value_in,
-                    0 AS value_out
-                FROM stock_move AS sm
+                    END AS sale_qty
+                FROM
+                    stock_move AS sm
+                    LEFT JOIN stock_picking AS sp ON sm.picking_id = sp.id
                     LEFT JOIN product_product AS pp ON sm.product_id = pp.id
                     LEFT JOIN product_template AS pt ON pp.product_tmpl_id = pt.id
                 WHERE
-                    date_trunc('day',sm.date) < '2019-05-04'
-                    AND sm.state = 'done'
-                    AND sm.location_dest_id = 77
+                    sp.location_id = %s
+                    AND sp.location_dest_id = %s
+                    AND sp.is_shop_return = False
+                    AND sp.is_shop_guar_transfer = True
+                    AND sp.transfer_type = 'callback'
+                    AND date_trunc('day',sp.min_date) >= '%s'
+                    AND date_trunc('day',sp.min_date) <= '%s'
+                    AND sp.state IN ('transit', 'done')
+                    AND sp.location_id = sm.location_id
+                    AND sm.state IN ('done', 'draft')
                 GROUP BY
-                    pt.id
-
-                UNION ALL
-
-                SELECT
-                    0 AS product_qty_in,
-                    CASE
-                        WHEN pt.article_prod_type='footwear'
-                            THEN sum(sm.product_uom_qty)
-                        ELSE 0
-                    END AS product_qty_out,
-                    0 AS value_in,
-                    sum(sm.product_uom_qty * sm.sale_price) AS value_out
-                FROM stock_move AS sm
-                    LEFT JOIN product_product AS pp ON sm.product_id = pp.id
-                    LEFT JOIN product_template AS pt ON pp.product_tmpl_id = pt.id
-                WHERE
-                    date_trunc('day',sm.date) <'2019-05-04'
-                    AND sm.state = 'done'
-                    AND sm.location_id = 77
-                GROUP BY
-                    pt.id
-            ) tbl_open]]></console>
-      <console name="BEL 1" type="STANDARD" schema="public" session="Main"><![CDATA[select * from aging_report_wizard]]></console>
+                    pt.article_prod_type
+            )sub]]></console>
+      <console name="BEL 1" type="STANDARD" schema="public" session="Main">select * from aging_report_wizard</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

@@ -228,4 +228,10 @@ Researched on Stock Accounting
     Researched on SQL queries,
     return data, etc.
 Researched on CI/CD of BitBucket
-Worked on amarbay.com E-Commerce banner image change.
+Worked on amarbay.com E-Commerce banner image change with Billal Vai.
+
+29-8
+Researched on Stock Accounting.
+    Executed on SQL queries,
+    & researched on results.
+Also started researching SIR Report.
