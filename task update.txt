@@ -238,3 +238,25 @@ Also started researching SIR Report.
 
 31-8
 Researched on Stock Accounting.
+
+1-9
+Ubuntu Crashed.
+Spent rest of the day to fix it,
+	Sumon bhai from MIS took it to fix.
+
+2-9
+Had a meeting with Taifur Sir regarding FOC & Stock Accouting.
+Started researching on New Stock Accounting Format &
+	Claim process document provided by Taifur Sir.
+
+3-9
+Countinued research on Claim Process.
+Received PC from Sumon bhai.
+	Started setting up the PC.
+	Installed Odoo
+	Edited Odoo installation script.
+
+4-9
+Continued setting up PC.
+	Fixed issues of PDF report generation.
+Started working on New Stock Accounting Report.
