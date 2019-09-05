@@ -1,0 +1,269 @@
+11-7
+Setup PC,
+Install Odoo
+Started researching on Odoo
+
+13-7
+Started working custom modules
+troubleshoot issues on both mine & Chisti's Odoo & PC.
+
+14-7
+Started building custom addons
+Built Courses menu item
+	Session menu item
+Initialized custom Search view
+Completed Many2one relationship for sessions with courses & users.
+
+15-7
+Worked on:
+	One2many & Many2many relations,
+	Inheritance: Model & View,
+	Computed fields,
+	Default values,
+	Onchange mechanism on seats & attendees number
+
+16-7
+Worked on:
+	Model constraints,
+	Advanced views:
+		Tree view,
+		Calendars,
+		Search view,
+		Gantt,
+		Graph,
+		Kanban,
+	Started Workflows, primary flows Initialized
+
+17-7
+Worked on:
+	Completed workflows:
+		model based,
+		server actions,
+	Security:
+		Group-based,
+		Access rights,
+		Record rules,
+	Wizards:
+		Started on wizards.
+
+18-7
+Completed module builing tutorial.
+Worked on:
+	Finished wizards,
+	Reporting:
+		Printed reports(PDF),
+		Dashboards,
+	Read through:
+		Internationalization,
+		WebServices.
+Started on Odoo guidelines.
+
+20-7
+Setup PyCharm,
+Tried to setup DB for PyCharm,
+Practised on PostgreSQL queries.
+
+21-7
+Worked on PostgreSQL Join, Update, Insert, Delete
+
+22-7
+Worked on Crosstab, COALESCE
+https://dbfiddle.uk/?rdbms=postgres_9.5&fiddle=1e19e169ef677daf1791c467bc06bff8
+https://dbfiddle.uk/?rdbms=postgres_10&fiddle=d065e2ded7c441891ccdb3bf597d9194
+
+23-7
+Worked on PostgreSQL, 
+	started working on Al Baraka project to understand reporting.
+	researched on day wise daily sales report.
+
+24-7
+Worked on generating report on supplier order receive,
+		added category filter. 
+		(on wizard & report view, including models)
+
+25-7
+Worked on the following:
+	researched on Excel report generation for Stock Inventory.
+	Added Excel report format to supplier order receive.
+
+27-7
+Worked on generating pdf report on Profit Loss Detailed report
+
+28-7
+Worked on generating Excel report on Profit Loss Detailed report
+    Fixed bugs
+
+29-7
+Started working on inventory stock report based on purchase price
+    generated sql for retrieving standard price from ir_properties table
+
+30-7
+Generated stock inventory report on standard price from ir_properties table
+    prepared sql for combining cost price from stock_quant & ir_properties table
+
+31-7
+Tweaked the SQL for the inventory stock report
+Researched on Audit Log & Smile Audit Trail,
+    we've decided to merge Audit Log's AutoVacuum and User Session & HTTP Requests
+
+1-8
+Started merging Audit log with Smile Audit Trail
+    Completed Session, Requests & AutoVacuum sections.
+    Some issues remain
+3-8
+Tried to solve the issues with the merging
+    Logs table has empty requests & session fields
+    Sessions & Requests doesn't record logs fields.
+
+4-8
+Resolved logs deletion in bulk
+    Need to work on cron job
+
+5-8
+Worked on HTTP request & Log id issues,
+    Fixed bulk delete of logs,
+    work left on cron jobs.
+
+6-8
+Worked on 
+	relations of HTTP Requests & Logs,
+	relations of Rule & Session, Rule & Logs
+Finished fulfilling the requirements of Audit module
+(The cron job condition needs a review)
+
+7-8
+Researched on Accounting module,
+	concepts of Debit & Credit
+	Journal, 
+	Journal Entries, 
+	Journal Items
+
+8-8
+Researched on Journal Entries for POS system
+Edited Bay Audit Trail for App Index page
+	Edited Images,
+		HTML,
+	Reordered Menu Items
+Edited bugs on Stock Inventory Report New.
+	(some bugs still left)
+
+9-8
+Fixed the rest of the bugs on Stock inventory report new,
+    fixed SQL query issue for categories,
+Fixed margin calculation issue on Profit Loss Detailed Report
+    both on Excel & PDF
+Handed over Bay Audit Trail,
+    Stock Inventory Report New &
+    Profit Loss Detailed Report for merging to live
+
+10-8
+Installed HR Modules
+Researched on Accounting & HR modules, Attendances.
+
+=============
+11/8 - 16/8
+EID VACATION
+=============
+
+17-8
+Researched on
+    Recruiting,
+    Contract,
+    Employees,
+    Related User,
+    Leave Applications,
+    Leave Allocations,
+    Survey Form,
+    Payslip,
+    Project,
+    Time Sheets,
+    Design Web Sites.
+
+18-8
+Started with Payroll codes,
+    Payroll rules,
+
+19-8
+Tried to fix the issue of Payroll Rule calculation.
+    Need to review 'worked_days' object
+
+20-8
+Tried debugging to figure out 'worked_days' object issue.
+    (Didn't completely solve the issue. Need further investigation.)
+    (Look into hr_payroll class)
+Started with BEL ERP project.
+
+21-8
+Started with BEL ERP GUI Training:
+    Mechandinsing,
+    Inventory CDC,
+Fixed user permission issue on Bay Audit Trail.
+
+22-8
+Started working on SIR on Bay ERP.
+    researching on column names.
+
+24-8
+Continued research on SIR.
+
+25-8
+Started working Aging Report of Articles by Plan No.
+    Researched on each column name to figure out inconsitencies.
+
+26-8
+Worked on Aging Report of Articles by Plan No.
+    Fixed year wise sale, quantity, stock filtering issue.
+    Fixed current year's season data,
+        enabled filtering data by dividing in 6 months.
+    Some code has been kept to make the code compatible if the requirements change.
+
+27-8
+Completed documentation on Aging Report of Articles by Plan No.
+	Saved to BEL Common File Server.
+Researched on Aging Report by Category by Plan No.
+Started researching on Stock Accounting.
+
+28-8
+Researched on Stock Accounting
+    Researched on SQL queries,
+    return data, etc.
+Researched on CI/CD of BitBucket
+Worked on amarbay.com E-Commerce banner image change with Billal Vai.
+
+29-8
+Researched on Stock Accounting.
+    Executed on SQL queries,
+    & researched on results.
+Also started researching SIR Report.
+
+31-8
+Researched on Stock Accounting.
+
+1-9
+Ubuntu Crashed.
+Spent rest of the day to fix it,
+	Sumon bhai from MIS took it to fix.
+
+2-9
+Had a meeting with Taifur Sir regarding FOC & Stock Accouting.
+Started researching on New Stock Accounting Format &
+	Claim process document provided by Taifur Sir.
+
+3-9
+Countinued research on Claim Process.
+Received PC from Sumon bhai.
+	Started setting up the PC.
+	Installed Odoo
+	Edited Odoo installation script.
+
+4-9
+Continued setting up PC.
+	Fixed issues of PDF report generation.
+Started working on New Stock Accounting Report.
+
+5-9
+Worked on Stock Accounting Report New.
+	Added new Class, model, function.
+	Added new view for that.
+	Added the first row of "A Pair Stock".
+	Modified sql_open for footwear & nonfootwear.
