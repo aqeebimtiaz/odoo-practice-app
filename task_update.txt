@@ -273,3 +273,9 @@ Worked on Stock Accounting Report New.
 	Modified SQL for opening stock section.
 	Added 4 fields on the report.
 	Opening section of the report completed.
+
+8-9
+Worked on Aging Report.
+	Corrected SQL for quantity error.
+	Researched for sell quantity & value for transit products.
+	Need to start working on Transit products.
