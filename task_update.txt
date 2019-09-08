@@ -267,3 +267,9 @@ Worked on Stock Accounting Report New.
 	Added new view for that.
 	Added the first row of "A Pair Stock".
 	Modified sql_open for footwear & nonfootwear.
+
+7-9
+Worked on Stock Accounting Report New.
+	Modified SQL for opening stock section.
+	Added 4 fields on the report.
+	Opening section of the report completed.
