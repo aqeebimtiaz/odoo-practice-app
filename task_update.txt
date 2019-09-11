@@ -279,3 +279,17 @@ Worked on Aging Report.
 	Corrected SQL for quantity error.
 	Researched for sell quantity & value for transit products.
 	Need to start working on Transit products.
+
+9-9
+Worked on Aging Report
+	Fixed issue of Over Value when compared to Footwear Sales Report.
+	The error was the returned values weren't properly calculated.
+
+10-9
+ASHURA HOLIDAY
+
+11-9
+Worked Aging Report
+	Detected issue on Exchange Product calculation 
+		when the returned product's Barcode is missing in the system.
+	Will work on it for fix next day.
