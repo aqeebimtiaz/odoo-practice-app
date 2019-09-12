@@ -289,7 +289,13 @@ Worked on Aging Report
 ASHURA HOLIDAY
 
 11-9
-Worked Aging Report
+Worked on Aging Report
 	Detected issue on Exchange Product calculation 
 		when the returned product's Barcode is missing in the system.
 	Will work on it for fix next day.
+
+12-9
+Worked on Aging Report
+	Tried to fix the SQL issue for Returned product missing in the system.
+	Started on the Current Stock issue.
+		Checking SQL with CDC Shopwise Stock Statement Report.
