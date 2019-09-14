@@ -299,3 +299,9 @@ Worked on Aging Report
 	Tried to fix the SQL issue for Returned product missing in the system.
 	Started on the Current Stock issue.
 		Checking SQL with CDC Shopwise Stock Statement Report.
+
+14-9
+Worked on Shop Wise Stock Statement Report
+	with Jahin.
+	Tried to fix the Transit Issue.
+	Some issues still remaining.
