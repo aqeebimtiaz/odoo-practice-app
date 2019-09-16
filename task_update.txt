@@ -305,3 +305,15 @@ Worked on Shop Wise Stock Statement Report
 	with Jahin.
 	Tried to fix the Transit Issue.
 	Some issues still remaining.
+
+15-9
+Worked on Aging Report Current Stock issue.
+	Started on Current Stock with Transit.
+		Started building the SQL for Transit.
+	Tested & pushed code of Sales Value mismatch.
+
+16-9
+Worked on Aging Report Current Stock issue.
+	Built SQL to Generate Transit SQL.
+	Completed Transit SQL for Current Stock.
+	Next will continue cross checking before pushing them online.
