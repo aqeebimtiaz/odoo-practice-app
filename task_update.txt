@@ -317,3 +317,12 @@ Worked on Aging Report Current Stock issue.
 	Built SQL to Generate Transit SQL.
 	Completed Transit SQL for Current Stock.
 	Next will continue cross checking before pushing them online.
+
+17-9
+Worked on Aging Report
+	Added is_with_transit flag for getting Current Stock data with or without transit.
+	Finazlied the output for different shops & all shops.
+	
+Worked on Current Stock Report
+	Added is_with_transit flag for getting Current Stock data with or without transit.
+	Started working on SQL for getting the in_transit value.
