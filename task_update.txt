@@ -326,3 +326,14 @@ Worked on Aging Report
 Worked on Current Stock Report
 	Added is_with_transit flag for getting Current Stock data with or without transit.
 	Started working on SQL for getting the in_transit value.
+
+18-9
+Pushed Aging Report update to bit bucket.
+Worked on Current Stock Report.
+	Completed SQL to add in transit query.
+	Found issues on ALL shop only.
+
+19-9
+Worked on Current Stock Report.
+	Tried to fix the All Shop pair mismatch issue.
+	Some issues still remaining.
