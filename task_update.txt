@@ -337,3 +337,9 @@ Worked on Current Stock Report.
 Worked on Current Stock Report.
 	Tried to fix the All Shop pair mismatch issue.
 	Some issues still remaining.
+
+21-9
+Worked on Current Stock Report.
+	Fixed the pair mismatch issue on ALL shop.
+	The issue was transit location id (17) was present in 'location_ids' list.
+	Will push to Git tomorrow after consulting with Billal vai.
