@@ -343,3 +343,16 @@ Worked on Current Stock Report.
 	Fixed the pair mismatch issue on ALL shop.
 	The issue was transit location id (17) was present in 'location_ids' list.
 	Will push to Git tomorrow after consulting with Billal vai.
+
+22-9
+Worked on Current Stock Report.
+	Finalized & pushed all the issues to Git.
+Started working on Aging Report by Category (Plan No.) 
+	& Category (Plan no.) percentage report.
+
+23-9
+Worked on Current Stock Report.
+	Created the Final SQL.
+	Created header part of the report.
+	Next will separate the final SQL & 
+	then will move to finalize the report.
