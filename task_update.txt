@@ -356,3 +356,12 @@ Worked on Current Stock Report.
 	Created header part of the report.
 	Next will separate the final SQL & 
 	then will move to finalize the report.
+
+24-9
+Worked on Aging Report 
+	Finished SQL & Basic Report structure.
+
+25-9
+Worked on Aging Report 
+	Finished the report.
+	now need to divide the SQL & crosscheck the report
