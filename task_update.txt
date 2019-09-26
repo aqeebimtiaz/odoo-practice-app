@@ -364,4 +364,11 @@ Worked on Aging Report
 25-9
 Worked on Aging Report 
 	Finished the report.
-	now need to divide the SQL & crosscheck the report
+	now need to divide the SQL & crosscheck the report.
+
+26-9
+Worked on Aging Report by Category Value
+	Finished crosschecking the report,
+	& dividing the SQL.
+	Added Grand Total & section wise total section.
+Researched in Vue Native & made a demo app on expo.
