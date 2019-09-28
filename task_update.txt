@@ -372,3 +372,10 @@ Worked on Aging Report by Category Value
 	& dividing the SQL.
 	Added Grand Total & section wise total section.
 Researched in Vue Native & made a demo app on expo.
+
+28-9
+Worked on Aging Report by Category Value
+	Found a bug on sale qty & value mismatch for products older that year5 or with plan_no == 0.
+	Fixed the bug that was due to SQL & a condition.
+Started working on Aging Report by Category Value (Percentage format 1)
+	Started with Sale QTY section.
