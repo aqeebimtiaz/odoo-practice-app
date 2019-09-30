@@ -385,3 +385,11 @@ Worked on on Aging Report by Category Value (Percentage format 1).
 	Finished All the sections of the report.
 	As directed by Taifur Sir & Kafi Vai, the percentage numbers will be rounded to 1 floating point.
 	Next will cross check the report with other reports.
+
+30-9
+Worked on on Aging Report by Category Value (Percentage format 1).
+	Cross checked report with other reports 
+	(For Sale and Stock - QTY & Value)
+	Found issues on Transit Stock
+	Tried to fix SQL with Jahin. 
+	Will follow up with Billal vaia next.
