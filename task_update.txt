@@ -393,3 +393,11 @@ Worked on on Aging Report by Category Value (Percentage format 1).
 	Found issues on Transit Stock
 	Tried to fix SQL with Jahin. 
 	Will follow up with Billal vaia next.
+
+1-10
+Worked on Aging Report by Category Value (Percentage format 1).
+	Cross checked with other reports.
+	Followed up with Billal vai,
+	everything's ok, pushed to BitBucket.
+Started working on Aging Report by Category Value (Percentage format 2).
+	Worked on Sale QTY section.
