@@ -400,4 +400,10 @@ Worked on Aging Report by Category Value (Percentage format 1).
 	Followed up with Billal vai,
 	everything's ok, pushed to BitBucket.
 Started working on Aging Report by Category Value (Percentage format 2).
-	Worked on Sale QTY section.
+
+2-10
+Worked on Aging Report by Category Value (Percentage format 2).
+	Completed the report for all the sections.
+	Cross checked with other reports
+	& pushed to BitBucket and Test Server.
+	Need to work on radio button for both formats.
