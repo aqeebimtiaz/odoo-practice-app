@@ -407,3 +407,12 @@ Worked on Aging Report by Category Value (Percentage format 2).
 	Cross checked with other reports
 	& pushed to BitBucket and Test Server.
 	Need to work on radio button for both formats.
+
+3-10
+Worked on Aging Report by Category Value.
+	Added radio button to choose from all three types of reports.
+	cross checked & pushed to testing server.
+Started working on Stock Accounting.
+	found out that the opening section sql update lost somewhere in the process of git pull-push.
+	recovered SQL & report part of "A Pair Stock" section of that.
+	Next, will start on recovering the rest of the items and then move to next sections.
