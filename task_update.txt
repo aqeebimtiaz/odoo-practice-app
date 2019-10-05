@@ -416,3 +416,8 @@ Started working on Stock Accounting.
 	found out that the opening section sql update lost somewhere in the process of git pull-push.
 	recovered SQL & report part of "A Pair Stock" section of that.
 	Next, will start on recovering the rest of the items and then move to next sections.
+
+5-10
+Worked on Stock Accounting.
+	Completed until Sale Section. 
+	Next will start from Receive section.
