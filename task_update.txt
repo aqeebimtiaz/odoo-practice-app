@@ -421,3 +421,9 @@ Started working on Stock Accounting.
 Worked on Stock Accounting.
 	Completed until Sale Section. 
 	Next will start from Receive section.
+
+6-10
+Worked on Stock Accounting.
+	Completed until Receive Section.
+		made a function for common SQL.
+	Next will start from Dispatch section.
