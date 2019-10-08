@@ -432,3 +432,8 @@ Worked on Stock Accounting.
 Worked on Stock Accounting.
 	Fixed some issues with Receive section.
 	Completed until Dispatch Section.
+
+8-10
+Worked on Stock Accounting.
+	Started on Return to Guarantee section.
+	Completed common SQL & Odd transfer.
