@@ -437,3 +437,9 @@ Worked on Stock Accounting.
 Worked on Stock Accounting.
 	Started on Return to Guarantee section.
 	Completed common SQL & Odd transfer.
+
+9-10
+Worked on Stock Accounting.
+	completed Return to Guarantee,
+	Circular Impact,
+	& Promotion/Discount section.
