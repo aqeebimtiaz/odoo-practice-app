@@ -443,3 +443,9 @@ Worked on Stock Accounting.
 	completed Return to Guarantee,
 	Circular Impact,
 	& Promotion/Discount section.
+
+10-10
+Worked on Stock Accounting.
+	completed Closing Stock section.
+	added exchange stock & exchange discount sale section.
+	Fixed issues on multiple section.
