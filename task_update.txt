@@ -449,3 +449,8 @@ Worked on Stock Accounting.
 	completed Closing Stock section.
 	added exchange stock & exchange discount sale section.
 	Fixed issues on multiple section.
+
+12-10
+Worked on Stock Accounting.
+	worked on SQL of Corporate Sale & Corporate Due Sale.
+Tried to cross check Aging report with other reports.
