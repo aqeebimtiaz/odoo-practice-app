@@ -454,3 +454,9 @@ Worked on Stock Accounting.
 Worked on Stock Accounting.
 	worked on SQL of Corporate Sale & Corporate Due Sale.
 Tried to cross check Aging report with other reports.
+
+13-10
+Worked on Stock Accounting.
+	Pushed latest update to BitBucket.
+Worked with Jahin for report cross checks.
+Researched a bit on React Native.
