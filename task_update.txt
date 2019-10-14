@@ -460,3 +460,7 @@ Worked on Stock Accounting.
 	Pushed latest update to BitBucket.
 Worked with Jahin for report cross checks.
 Researched a bit on React Native.
+
+14-10
+Worked on Stock Accounting.
+Worked on Claim Process Operation side.
