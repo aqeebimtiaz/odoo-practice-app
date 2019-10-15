@@ -464,3 +464,8 @@ Researched a bit on React Native.
 14-10
 Worked on Stock Accounting.
 Worked on Claim Process Operation side.
+
+15-10
+Worked on Claim Process Operation side.
+	Created Test cases.
+	Found issues & discussed with Billal Vai.
