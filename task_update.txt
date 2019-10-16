@@ -469,3 +469,9 @@ Worked on Claim Process Operation side.
 Worked on Claim Process Operation side.
 	Created Test cases.
 	Found issues & discussed with Billal Vai.
+
+16-10
+Worked on Claim Process Operation side.
+	Finished test cases for Footwears.
+	Started test cases for Non-Footwears.
+Helped with generating Recap HO Report for 1.1.2019-27.9.2019
