@@ -475,3 +475,9 @@ Worked on Claim Process Operation side.
 	Finished test cases for Footwears.
 	Started test cases for Non-Footwears.
 Helped with generating Recap HO Report for 1.1.2019-27.9.2019
+
+17-10
+Worked on Claim Process Operation side.
+	Finished test cases for Non-Footwears.
+	Started test cases on Guarantee process side,
+		for Footwears.
