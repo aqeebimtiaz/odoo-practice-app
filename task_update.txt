@@ -482,8 +482,14 @@ Worked on Claim Process Operation side.
 	Started test cases on Guarantee process side,
 		for Footwears.
 
-18-10
+19-10
 Worked on Claim Process Operation side.
 	Conducted test cases on Guarantee process side,
 		for Footwears & Non-Footwears.
 	Found some issues, consulted with Billal vai.
+
+20-10
+Worked on Claim Process Operation side.
+	Followed up on some issues with Billal vai.
+		Conducted test cases on Guarantee process side,
+		for Footwears & Non-Footwears.
