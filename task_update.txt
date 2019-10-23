@@ -504,3 +504,8 @@ Worked on Claim Process Operation side.
 	Was waiting for meeting about claim process with Taifur Sir,
 	didn't happen.
 	Researched into RN.
+
+23-10
+Worked on RN App.
+	Added a login screen.
+	Researched about ASyncStorage, ScrollView, etc.
