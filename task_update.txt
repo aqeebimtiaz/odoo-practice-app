@@ -509,3 +509,8 @@ Worked on Claim Process Operation side.
 Worked on RN App.
 	Added a login screen.
 	Researched about ASyncStorage, ScrollView, etc.
+
+24-10
+Worked on RN App.
+	Added login functions,
+	Navigators, etc.
