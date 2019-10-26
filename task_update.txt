@@ -514,3 +514,10 @@ Worked on RN App.
 Worked on RN App.
 	Added login functions,
 	Navigators, etc.
+
+26-10
+Half day leave from 8-12,
+Worked on RN App Research.
+	Researched on React Navigation, 
+	Discussed AJAX & E-commerce frameworks.
+	
