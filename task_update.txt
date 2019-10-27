@@ -520,4 +520,9 @@ Half day leave from 8-12,
 Worked on RN App Research.
 	Researched on React Navigation, 
 	Discussed AJAX & E-commerce frameworks.
+
+27-10
+Worked on RN App Research.
+	Researched on React Navigation,
+	Completed Home Page & Dashboard Navigation.
 	
