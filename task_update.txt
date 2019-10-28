@@ -525,4 +525,9 @@ Worked on RN App Research.
 Worked on RN App Research.
 	Researched on React Navigation,
 	Completed Home Page & Dashboard Navigation.
+
+28-10
+Worked on RN App.
+	Added Activity Indicator,
+	Updated input fields.
 	
