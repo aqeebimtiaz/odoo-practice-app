@@ -530,4 +530,10 @@ Worked on RN App Research.
 Worked on RN App.
 	Added Activity Indicator,
 	Updated input fields.
+
+29-10
+Worked on RN App.
+	Researched on Accordion layout.
+Worked on Odoo API with Billal vai.
+	Completed Shop List API (some issues).
 	
