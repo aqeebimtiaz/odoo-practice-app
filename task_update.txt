@@ -537,3 +537,9 @@ Worked on RN App.
 Worked on Odoo API with Billal vai.
 	Completed Shop List API (some issues).
 	
+30-10
+Worked on RN App.
+	Worked on Accordion Template.
+	Pushed latest Dashboard to Git.
+Worked on Odoo API with Billal vai.
+	Started working on changing API return shop_list.
