@@ -543,3 +543,9 @@ Worked on RN App.
 	Pushed latest Dashboard to Git.
 Worked on Odoo API with Billal vai.
 	Started working on changing API return shop_list.
+
+31-10
+Worked on Odoo API with Billal vai.
+	Researched on multiple packages for Odoo API call 
+		for both Python & RN/NPM.
+	Need to design a separate back end using Flask or some sort of micro framework.
