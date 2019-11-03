@@ -558,3 +558,8 @@ Worked on RN App.
 		Partially successful, login operation done.
 Worked on Odoo API.
 	Modified returned data.
+
+3-11
+Worked on RN App.
+	Added email validation,
+	Linked phone num with Phone app.
