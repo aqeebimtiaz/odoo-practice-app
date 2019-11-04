@@ -563,3 +563,10 @@ Worked on Odoo API.
 Worked on RN App.
 	Added email validation,
 	Linked phone num with Phone app.
+
+4-11
+Worked on RN App.
+	Added API Fetch call to retrieve shop list from flask app.
+Started working on Flask App.
+	Added user login API endpoint,
+	working on shop list endpoint.
