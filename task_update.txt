@@ -570,3 +570,9 @@ Worked on RN App.
 Started working on Flask App.
 	Added user login API endpoint,
 	working on shop list endpoint.
+
+5-11
+Worked on Flask App.
+	Added API endpoint for login
+		Shop List
+	Both are working on custom methods.
