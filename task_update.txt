@@ -576,3 +576,11 @@ Worked on Flask App.
 	Added API endpoint for login
 		Shop List
 	Both are working on custom methods.
+
+6-11
+Worked on Flask App.
+	edited API endpoint for login & shop list
+Worked on RN App.
+	Added API fetch call for Login & Shop List.
+	Saving session ID, user name on AsyncStorage.
+	Login & Shop List page done.
