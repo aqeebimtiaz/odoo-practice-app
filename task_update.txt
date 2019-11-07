@@ -584,3 +584,13 @@ Worked on RN App.
 	Added API fetch call for Login & Shop List.
 	Saving session ID, user name on AsyncStorage.
 	Login & Shop List page done.
+
+7-11
+Worked on RN App.
+	Fixed issues with loading & API calls,
+	Added base_url.
+	Generated APK file.
+Worked on Flask App.
+	Added base_url,
+	Lauched on Heroku.
+Faced some issues, will fix on those later.
