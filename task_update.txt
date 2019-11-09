@@ -594,3 +594,8 @@ Worked on Flask App.
 	Added base_url,
 	Lauched on Heroku.
 Faced some issues, will fix on those later.
+
+9-11
+Fixed BEL RN App login issue.
+Updated Flask via server app.
+Short leave from 2:30pm
