@@ -599,3 +599,12 @@ Faced some issues, will fix on those later.
 Fixed BEL RN App login issue.
 Updated Flask via server app.
 Short leave from 2:30pm
+
+10-11
+Eid-i-Miladunnabi Holiday.
+Disabled Flask heroku app in suspicion of server overload.
+(Turns out db error, unrelated to Flask or Mobile App)
+
+11-11
+Worked on RN App.
+	Expiremented Side Menu Drawer navigation.
