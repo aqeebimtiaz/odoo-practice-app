@@ -608,3 +608,8 @@ Disabled Flask heroku app in suspicion of server overload.
 11-11
 Worked on RN App.
 	Expiremented Side Menu Drawer navigation.
+
+12-11
+Worked on RN App.
+	Added Side Menu Navigation.
+	Some issues remaining header section.

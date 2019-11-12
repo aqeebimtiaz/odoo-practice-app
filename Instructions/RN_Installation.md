@@ -37,7 +37,7 @@ Then, run the app specifically to that device
 
 	react-native run-android --deviceId=$device_name
 	
-## ==Common Errors:==
+## == Common Errors: ==
 - If you face that one or more modules are missing, re-run
 >npm install
 - If you face something like the following when running the app on device:
