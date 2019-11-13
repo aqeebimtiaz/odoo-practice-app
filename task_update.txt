@@ -613,3 +613,10 @@ Worked on RN App.
 Worked on RN App.
 	Added Side Menu Navigation.
 	Some issues remaining header section.
+
+13-11
+Worked on RN App.
+	added logout url.
+Worked on Flask App.
+	added logout function.
+Started research on Odoo login, session Id & logout functionalities.
