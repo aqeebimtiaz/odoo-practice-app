@@ -620,3 +620,11 @@ Worked on RN App.
 Worked on Flask App.
 	added logout function.
 Started research on Odoo login, session Id & logout functionalities.
+
+14-11
+Worked on RN App.
+	Added logout functionalites & routing back to login page.
+	Added modal on shop list loading page.
+Worked on Odoo.
+	Researched on Logout & session Id storage,
+	Started working on stock transfer summary sql issue.
