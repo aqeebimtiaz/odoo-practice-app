@@ -628,3 +628,10 @@ Worked on RN App.
 Worked on Odoo.
 	Researched on Logout & session Id storage,
 	Started working on stock transfer summary sql issue.
+
+16-11
+Worked on RN App.
+	Tried to fix the drawer menu.
+	Started experiment with drawer only menu.
+Worked on Odoo.
+	Fixed stock transfer summary sql issue.
