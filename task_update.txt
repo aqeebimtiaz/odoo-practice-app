@@ -635,3 +635,10 @@ Worked on RN App.
 	Started experiment with drawer only menu.
 Worked on Odoo.
 	Fixed stock transfer summary sql issue.
+
+17-11
+Worked on RN App.
+	Added custom heading to both experimental & bay app.
+	Fixed back button on Bay App.
+Worked on Odoo.
+	Worked with Billal vai on JS data sync issues on POS.
