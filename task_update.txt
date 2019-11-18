@@ -642,3 +642,8 @@ Worked on RN App.
 	Fixed back button on Bay App.
 Worked on Odoo.
 	Worked with Billal vai on JS data sync issues on POS.
+
+18-11
+Worked on Odoo.
+	Researched Corporate Sale	
+	Added Institution Sale Menu & View.
