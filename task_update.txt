@@ -647,3 +647,8 @@ Worked on Odoo.
 Worked on Odoo.
 	Researched Corporate Sale	
 	Added Institution Sale Menu & View.
+
+19-11
+Worked on Odoo.
+	Added Institution Sale Invoices.
+	Fixed Bugs.
