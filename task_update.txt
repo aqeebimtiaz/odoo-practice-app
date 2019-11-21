@@ -652,3 +652,11 @@ Worked on Odoo.
 Worked on Odoo.
 	Added Institution Sale Invoices.
 	Fixed Bugs.
+
+20-11
+Sick Leave whole day.
+
+21-11
+Worked on Bel-Odoo.
+	Discussed Employees, Payroll, Leave, Recruitment, Online Recruitment, etc HR modules.
+	Started working on Applicant Form.
