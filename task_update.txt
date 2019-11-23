@@ -660,3 +660,8 @@ Sick Leave whole day.
 Worked on Bel-Odoo.
 	Discussed Employees, Payroll, Leave, Recruitment, Online Recruitment, etc HR modules.
 	Started working on Applicant Form.
+
+23-11
+Worked on Bel-Odoo.
+	Worked on Applicant Form.
+		Completed the following section: personal details, dependents, siblings, education, training, language.
