@@ -671,3 +671,8 @@ Worked on Bel-Odoo.
 	Worked on Applicant Form.
 		Finished building all the models required.
 	Next will finish the XML (Frontend) implementation.
+
+25-11
+Worked on Bel-Odoo.
+	Worked on Applicant Form.
+	Finished Applicant Form VIEW.
