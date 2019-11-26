@@ -676,3 +676,8 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Worked on Applicant Form.
 	Finished Applicant Form VIEW.
+
+26-11
+Worked on Bel-Odoo.
+	Worked on Applicant Form.
+	Started with the create function, create employee integration.
