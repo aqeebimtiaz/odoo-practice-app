@@ -681,3 +681,11 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Worked on Applicant Form.
 	Started with the create function, create employee integration.
+
+27-11
+Worked on Bel-Odoo.
+	Worked on Applicant Form.
+PC Crashed at 2pm.
+
+28-11
+Setup PC & Odoo.
