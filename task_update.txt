@@ -689,3 +689,8 @@ PC Crashed at 2pm.
 
 28-11
 Setup PC & Odoo.
+
+30-11
+Worked on Bel-Odoo.
+	Worked on Applicant Form.
+		Added experience_ids integration with employees
