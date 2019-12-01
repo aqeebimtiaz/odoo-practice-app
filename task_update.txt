@@ -693,4 +693,8 @@ Setup PC & Odoo.
 30-11
 Worked on Bel-Odoo.
 	Worked on Applicant Form.
-		Added experience_ids integration with employees
+		Added experience_ids integration with employees.
+
+1-12
+Worked on Bel-Odoo.
+	Added Admin permission to Corporate Sale Page.
