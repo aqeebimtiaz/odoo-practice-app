@@ -698,3 +698,7 @@ Worked on Bel-Odoo.
 1-12
 Worked on Bel-Odoo.
 	Added Admin permission to Corporate Sale Page.
+
+2-12
+Worked on Bel-Odoo.
+	Collab-ed with Jahin for Shopwise Stock Report xlsx Permission error.
