@@ -702,3 +702,8 @@ Worked on Bel-Odoo.
 2-12
 Worked on Bel-Odoo.
 	Collab-ed with Jahin for Shopwise Stock Report xlsx Permission error.
+
+3-12
+Worked on Bel-Odoo.
+	Added Application Form Report.
+	Modified service length function.
