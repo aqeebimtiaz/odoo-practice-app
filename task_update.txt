@@ -715,4 +715,9 @@ Worked on Bel-Odoo.
 5-12
 Worked on Bel-Odoo.
 	Updated Application Form Report Print.
-		Added 1st page of the form
+		Added 1st page of the form.
+
+7-12
+Worked on Bel-Odoo.
+	Updated Application Form Report Print.
+		Added until 3rd page of the form.
