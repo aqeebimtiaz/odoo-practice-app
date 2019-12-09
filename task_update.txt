@@ -721,3 +721,13 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Updated Application Form Report Print.
 		Added until 3rd page of the form.
+
+8-12
+Worked on Bel-Odoo.
+	Updated Application Form Report Print.
+Had serious DB crash issue, fixed at 10:20pm, left office at 10:35
+
+9-12
+Worked on Bel-Odoo.
+	Updated Application Form Report Print.
+Worked on Flask API & BEL-ICE app.
