@@ -731,3 +731,9 @@ Had serious DB crash issue, fixed at 10:20pm, left office at 10:35
 Worked on Bel-Odoo.
 	Updated Application Form Report Print.
 Worked on Flask API & BEL-ICE app.
+
+10-12
+Worked on Bel-Odoo.
+	Started on Stock Accounting.
+Worked on Flask API & BEL-ICE app.
+Worked with Shaju vai for Fair shop back date sale.
