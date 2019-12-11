@@ -737,3 +737,8 @@ Worked on Bel-Odoo.
 	Started on Stock Accounting.
 Worked on Flask API & BEL-ICE app.
 Worked with Shaju vai for Fair shop back date sale.
+
+11-12
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+		Completed SQL for Claim settle stock.
