@@ -742,3 +742,28 @@ Worked with Shaju vai for Fair shop back date sale.
 Worked on Bel-Odoo.
 	Worked on Stock Accounting.
 		Completed SQL for Claim settle stock.
+
+12-12
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Completed report view for claim settled & unsettled stock in opening.
+Worked on DB timestamp error.
+
+14-12
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Started working on Claim Settled Return to Guarantee.
+
+15-12
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Worked on Claim Settled & Unsettled Return to Guarantee.
+
+16-12 Victory Day Holiday
+
+17-12
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Added Claim Settled & Unsettled Return to Guarantee.
+	Finished Claim settled & unsettled stock in closing.
+	Started with a bug on Claim settled stock in opening.
