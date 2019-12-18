@@ -767,3 +767,8 @@ Worked on Bel-Odoo.
 	Added Claim Settled & Unsettled Return to Guarantee.
 	Finished Claim settled & unsettled stock in closing.
 	Started with a bug on Claim settled stock in opening.
+
+18-12
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Added Claim Unsettled Back to Customer by Repair & without settlement.
