@@ -772,9 +772,14 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Worked on Stock Accounting.
 	Added Claim Unsettled Back to Customer by Repair & without settlement.
-
+deta
 19-12
 Worked on Bel-Odoo.
 	Updated Application Form Report Print.
 		Added Applicant Image.
 	Started working on Employee Details Report View.
+
+21-12
+Worked on Bel-Odoo.
+	Updated Employee Details Report View.
+		completed until Personal & started with official details
