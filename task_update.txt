@@ -782,4 +782,14 @@ Worked on Bel-Odoo.
 21-12
 Worked on Bel-Odoo.
 	Updated Employee Details Report View.
-		completed until Personal & started with official details
+		completed until Personal & started with official details.
+
+22-12
+Worked on Bel-Odoo.
+	Updated Employee Details Report View.
+		Completed until professional training.
+
+23-12
+Worked on Bel-Odoo.
+	Finished Employee Details Report View.
+	Started with Employee Attendances.
