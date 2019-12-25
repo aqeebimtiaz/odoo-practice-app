@@ -793,3 +793,11 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Finished Employee Details Report View.
 	Started with Employee Attendances.
+
+24-12
+Sick leave due to knee pain.
+
+25-12
+Worked on hr_attendance.
+	Researched on hr_zk module.
+Researched Saleor & other frameworks with Jahin.
