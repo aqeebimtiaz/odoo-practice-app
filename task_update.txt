@@ -806,3 +806,8 @@ Researched Saleor & other frameworks with Jahin.
 Worked on hr_attendance.
 	Installed & researched on hr_zk module.
 Worked on PostgreSQL online free DBs.
+
+28-12
+Researched on Attendance & Payroll.
+Fixed AWS RDS connection.
+Fixed issues & deployed BEL ICE on Heroku (bel-flask-ice.herokuapp.com).
