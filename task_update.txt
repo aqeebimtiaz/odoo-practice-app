@@ -811,3 +811,7 @@ Worked on PostgreSQL online free DBs.
 Researched on Attendance & Payroll.
 Fixed AWS RDS connection.
 Fixed issues & deployed BEL ICE on Heroku (bel-flask-ice.herokuapp.com).
+
+29-12
+Researched on Attendance & Payroll.
+Added AWS DynamoDB & integration with Flask, added S3 storage.
