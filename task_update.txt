@@ -815,3 +815,13 @@ Fixed issues & deployed BEL ICE on Heroku (bel-flask-ice.herokuapp.com).
 29-12
 Researched on Attendance & Payroll.
 Added AWS DynamoDB & integration with Flask, added S3 storage.
+
+30-12
+Started working on Odoo API with Billal vai.
+	Added Today Sale list API endpoint.
+Started working on Flask App for consuming Today Sale endpoint.
+
+31-12
+Completed Flask App Today Sale API.
+Started working BEL RN App.
+	Added custom header & navigations.
