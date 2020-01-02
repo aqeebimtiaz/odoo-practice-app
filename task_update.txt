@@ -825,3 +825,9 @@ Started working on Flask App for consuming Today Sale endpoint.
 Completed Flask App Today Sale API.
 Started working BEL RN App.
 	Added custom header & navigations.
+
+1-1
+Completed Flask App integration with RN App of Today Sale API.
+
+2-1
+Added Gradient & other customization to RN App.
