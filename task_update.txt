@@ -831,3 +831,8 @@ Completed Flask App integration with RN App of Today Sale API.
 
 2-1
 Added Gradient & other customization to RN App.
+
+4-1
+Worked on BEL RN App.
+	Added screen orientation changes handling.
+	Added network error handling.
