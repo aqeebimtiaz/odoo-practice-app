@@ -150,7 +150,9 @@ Then, run the app specifically to that device
 	
 - If we face the following error:
 ![](https://i.lensdump.com/i/iUIHqx.png) 
-> echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+>	Sunday, 05. January 2020 12:26pm 
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 - If you face that one or more modules are missing, re-run
 >npm install
