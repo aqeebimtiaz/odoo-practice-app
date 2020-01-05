@@ -836,3 +836,8 @@ Added Gradient & other customization to RN App.
 Worked on BEL RN App.
 	Added screen orientation changes handling.
 	Added network error handling.
+
+5-1
+Worked on BEL RN App.
+	Added total sales formatting.
+Started working on Stock Accounting.
