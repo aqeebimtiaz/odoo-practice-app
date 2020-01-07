@@ -846,3 +846,7 @@ Started working on Stock Accounting.
 Worked on Bel-Odoo.
 	Worked on Stock Accounting (Corporate/Institutional Sale).
 	Started SQL of Circular Increase/Decrease.
+
+7-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting (Institutional Sale, Circular Impact sections).
