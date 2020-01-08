@@ -850,3 +850,7 @@ Worked on Bel-Odoo.
 7-1
 Worked on Bel-Odoo.
 	Worked on Stock Accounting (Institutional Sale, Circular Impact sections).
+
+8-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting (Discount Sale by Exchange & Claim sections).
