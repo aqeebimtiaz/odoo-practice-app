@@ -854,3 +854,9 @@ Worked on Bel-Odoo.
 8-1
 Worked on Bel-Odoo.
 	Worked on Stock Accounting (Discount Sale by Exchange & Claim sections).
+
+8-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting 
+	Started on SQL of A pair return after circular sections.
+Worked with Billal vaia for SMS API.
