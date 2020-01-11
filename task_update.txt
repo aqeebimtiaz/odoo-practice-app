@@ -855,8 +855,15 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Worked on Stock Accounting (Discount Sale by Exchange & Claim sections).
 
-8-1
+9-1
 Worked on Bel-Odoo.
 	Worked on Stock Accounting 
 	Started on SQL of A pair return after circular sections.
 Worked with Billal vaia for SMS API.
+
+11-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting 
+	Tried to fix SQL of A pair return after circular sections.
+Worked on BEL RN App.
+	Added Drawer Navigation. (Some issues remaining)
