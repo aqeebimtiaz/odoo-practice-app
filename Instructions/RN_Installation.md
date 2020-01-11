@@ -162,3 +162,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 
 Simply, navigate to ***root_folder/android/app/src/main/res*** and delete the ***raw*** folder and all the ***drawable-**** folders 
 Then try to re-run the app again.
+
+- If you face static image files missing in your bundled application, simply run this command:
+
+> react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
