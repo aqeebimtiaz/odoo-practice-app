@@ -166,3 +166,7 @@ Then try to re-run the app again.
 - If you face static image files missing in your bundled application, simply run this command:
 
 > react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+
+Then run the following command to compile your app to APK file.
+
+> cd android && ./gradlew clean assembleDebug
