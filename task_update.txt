@@ -867,3 +867,10 @@ Worked on Bel-Odoo.
 	Tried to fix SQL of A pair return after circular sections.
 Worked on BEL RN App.
 	Added Drawer Navigation. (Some issues remaining)
+
+12-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Tried to fix SQL of A pair return after circular sections.
+Worked on BEL RN App.
+	Add Drawer Navigation with all screens.
