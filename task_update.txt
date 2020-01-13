@@ -874,3 +874,8 @@ Worked on Bel-Odoo.
 	Tried to fix SQL of A pair return after circular sections.
 Worked on BEL RN App.
 	Add Drawer Navigation with all screens.
+
+13-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+		Added Claim Settle & Unsettle in Receive section.
