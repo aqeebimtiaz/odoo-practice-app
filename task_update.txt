@@ -879,3 +879,10 @@ Worked on BEL RN App.
 Worked on Bel-Odoo.
 	Worked on Stock Accounting.
 		Added Claim Settle & Unsettle in Receive section.
+
+14-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Fixed all caps styling.
+Worked on BEL RN App.
+	Added Custom Drawer (returns empty drawer, will fix next).
