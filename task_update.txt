@@ -886,3 +886,10 @@ Worked on Bel-Odoo.
 	Fixed all caps styling.
 Worked on BEL RN App.
 	Added Custom Drawer (returns empty drawer, will fix next).
+
+15-1
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+	Updated total calculations of Exchange, Claim in Receive sections.
+Worked on BEL RN App.
+	Tried to fix Custom Drawer (some issues still remaining).
