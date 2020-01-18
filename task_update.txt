@@ -893,3 +893,12 @@ Worked on Bel-Odoo.
 	Updated total calculations of Exchange, Claim in Receive sections.
 Worked on BEL RN App.
 	Tried to fix Custom Drawer (some issues still remaining).
+
+16-1
+Worked on BEL RN App.
+	Experimented with React Native Barcode.
+
+18-1
+Worked on BEL RN App.
+	Finished with Barcode,
+	Started setting up Saleor.
