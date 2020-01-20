@@ -902,3 +902,11 @@ Worked on BEL RN App.
 Worked on BEL RN App.
 	Finished with Barcode,
 	Started setting up Saleor.
+
+19-1
+Worked on Bel-Odoo.
+	Worked on SIR, fixed some issues.
+
+20-1
+Worked on Bel-Odoo.
+	Started building e-commerce API.
