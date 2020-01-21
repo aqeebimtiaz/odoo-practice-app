@@ -910,3 +910,8 @@ Worked on Bel-Odoo.
 20-1
 Worked on Bel-Odoo.
 	Started building e-commerce API.
+
+21-1
+Worked on Bel-Odoo.
+	Completed building e-commerce API.
+	Investigated into SIR issues, coordinating with Sathi.
