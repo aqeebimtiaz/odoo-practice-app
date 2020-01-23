@@ -920,3 +920,8 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Worked with Jahin integrating e-commerce API.
 	Found issues on SIR.
+
+23-1
+Worked on Bel-Odoo.
+	Fixed Year-Week issue by adding a error validation check.
+Short Leave from 2:30pm.
