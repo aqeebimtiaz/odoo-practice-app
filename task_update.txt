@@ -925,3 +925,8 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Fixed Year-Week issue by adding a error validation check.
 Short Leave from 2:30pm.
+
+25-1
+Worked on Django-Saleor
+	Conducted basic tutorial on Django.
+Tried investigating issues for Odoo DB restore error.
