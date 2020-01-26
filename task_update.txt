@@ -930,3 +930,10 @@ Short Leave from 2:30pm.
 Worked on Django-Saleor
 	Conducted basic tutorial on Django.
 Tried investigating issues for Odoo DB restore error.
+
+26-1
+Fixed flask-app on test server, now running properly.
+Worked on Bel-Odoo.
+	Updated brand_name & added color on article_list API.
+	Added Category list API.
+	Started working on Theme Bay.
