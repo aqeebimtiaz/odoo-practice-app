@@ -937,3 +937,7 @@ Worked on Bel-Odoo.
 	Updated brand_name & added color on article_list API.
 	Added Category list API.
 	Started working on Theme Bay.
+
+27-1
+Worked on Bel-Odoo.
+	Worked on theme_bay (hid nav bar).
