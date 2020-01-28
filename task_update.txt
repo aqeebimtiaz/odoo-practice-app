@@ -941,3 +941,8 @@ Worked on Bel-Odoo.
 27-1
 Worked on Bel-Odoo.
 	Worked on theme_bay (hid nav bar).
+
+28-1
+Worked on Bel-Odoo.
+	Wokred on theme_bay.
+	Had a presentation about e-commerce & a meeting about Stock Accounting with Taifur Sir.
