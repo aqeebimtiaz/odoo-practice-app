@@ -946,3 +946,24 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Wokred on theme_bay.
 	Had a presentation about e-commerce & a meeting about Stock Accounting with Taifur Sir.
+
+29-1
+Worked on Bel-Odoo.
+	Held 2 main & 3 small meetings with Stock Accounting, got new format.
+
+30-1
+Worked on Mobile Recharge API call.
+	Faced a lot of issues, contacted SSL Wireless support.
+
+31-1
+Friday alternative office for Saturday election holiday.
+Worked on Mobile Recharge API call.
+	Finalized API calls.
+
+1-2
+Worked for a couple of hours with Billal vai from home on API response parsing.
+
+2-2
+Worked on Bel-Odoo.
+	Started working on new Stock Accounting.
+Helped Billal vai for Mobile Recharge API call issues.
