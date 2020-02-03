@@ -967,3 +967,8 @@ Worked for a couple of hours with Billal vai from home on API response parsing.
 Worked on Bel-Odoo.
 	Started working on new Stock Accounting.
 Helped Billal vai for Mobile Recharge API call issues.
+
+3-2
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+		Updated Receive & Return to Guarantee sections.
