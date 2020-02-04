@@ -972,3 +972,9 @@ Helped Billal vai for Mobile Recharge API call issues.
 Worked on Bel-Odoo.
 	Worked on Stock Accounting.
 		Updated Receive & Return to Guarantee sections.
+
+4-2
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+		Updated Return from Guarantee sections without SQL.
+Helped Jahin with E-commerce.
