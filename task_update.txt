@@ -978,3 +978,10 @@ Worked on Bel-Odoo.
 	Worked on Stock Accounting.
 		Updated Return from Guarantee sections without SQL.
 Helped Jahin with E-commerce.
+
+5-2
+Worked on Bel-Odoo.
+	Worked on Stock Accounting.
+		Updated Closing Stock sections without SQL.
+Held a meeting with ICC software team.
+	Decision: We are scraping the Saleor e-commerce. ICC will build that instead with PHP (maybe) with paid themes.
