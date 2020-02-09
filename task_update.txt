@@ -985,3 +985,16 @@ Worked on Bel-Odoo.
 		Updated Closing Stock sections without SQL.
 Held a meeting with ICC software team.
 	Decision: We are scraping the Saleor e-commerce. ICC will build that instead with PHP (maybe) with paid themes.
+
+6-2
+Worked on Bel-Odoo.
+	Built API for Shop Locations.
+Short leave from 2:30pm.
+
+8-2
+Casual Leave.
+
+9-2
+Worked on E-commerce with Jahin.
+	Fixed front end styling for Navbar, search input & Slider.
+	Created Countdown timer.
