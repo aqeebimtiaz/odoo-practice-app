@@ -998,3 +998,14 @@ Casual Leave.
 Worked on E-commerce with Jahin.
 	Fixed front end styling for Navbar, search input & Slider.
 	Created Countdown timer.
+
+10-2
+Worked on E-commerce with Jahin.
+	Added Accordion on Shop List info
+
+11-13 Feb 
+	Casual Leave
+
+15-2
+Worked on E-commerce with Jahin.
+	Fixed styling of Accordion, side menu (mobile view).
