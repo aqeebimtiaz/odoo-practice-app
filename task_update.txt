@@ -1009,3 +1009,14 @@ Worked on E-commerce with Jahin.
 15-2
 Worked on E-commerce with Jahin.
 	Fixed styling of Accordion, side menu (mobile view).
+
+16-2
+Worked on E-commerce.
+	Added Countdown timer & functionalities.
+Had a meeting with ICC for e-commerce API.
+Faced sync issues due to SSL error.
+Started on BEL Odoo API Documentation.
+
+17-2
+Finished BEL Odoo API Documentation for Auth & Category.
+Started limit & date parameters for API.
