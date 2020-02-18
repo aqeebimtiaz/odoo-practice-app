@@ -1020,3 +1020,10 @@ Started on BEL Odoo API Documentation.
 17-2
 Finished BEL Odoo API Documentation for Auth & Category.
 Started limit & date parameters for API.
+
+18-2
+Added logging of API calls to DB.
+Added optional Date field for E-commerce Category API.
+Updated API documentation.
+Sent documentation to Kafi vai for forwarding to ICC.
+Worked with Jahin for Shop List API on Saleor.
