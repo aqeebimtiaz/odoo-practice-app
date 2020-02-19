@@ -1027,3 +1027,8 @@ Added optional Date field for E-commerce Category API.
 Updated API documentation.
 Sent documentation to Kafi vai for forwarding to ICC.
 Worked with Jahin for Shop List API on Saleor.
+
+19-2
+Worked with Jahin for some styling on E-commerce.
+Sent API documentation to ICC.
+Started experimenting with React Search for Shop List page.
