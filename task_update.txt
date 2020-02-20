@@ -1032,3 +1032,9 @@ Worked with Jahin for Shop List API on Saleor.
 Worked with Jahin for some styling on E-commerce.
 Sent API documentation to ICC.
 Started experimenting with React Search for Shop List page.
+
+20-2
+Added React based Store Search, update page on e-commerce.
+Updated API documentation.
+Had a meeting with Rudro (ICC for Auth & Category API).
+Worked with Billal vaia, to help MIS for recovering Badda missing sale.
