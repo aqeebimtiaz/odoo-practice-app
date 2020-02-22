@@ -1030,11 +1030,19 @@ Worked with Jahin for Shop List API on Saleor.
 
 19-2
 Worked with Jahin for some styling on E-commerce.
+	Started experimenting with React Search for Shop List page.
 Sent API documentation to ICC.
-Started experimenting with React Search for Shop List page.
 
 20-2
 Added React based Store Search, update page on e-commerce.
 Updated API documentation.
 Had a meeting with Rudro (ICC for Auth & Category API).
 Worked with Billal vaia, to help MIS for recovering Badda missing sale.
+
+22-2
+Worked on RN App.
+	Fixed styling & modal issues.
+Worked on Bel-Odoo.
+	Worked on saving sale_invoice_list as .txt file in JS for amarbay POS.
+	Started investigating on Current Stock report data mismatch for Narayanganj.
+
