@@ -1046,3 +1046,8 @@ Worked on Bel-Odoo.
 	Worked on saving sale_invoice_list as .txt file in JS for amarbay POS.
 	Started investigating on Current Stock report data mismatch for Narayanganj.
 
+23-2
+Worked on E-commerce with Jahin.
+	Added Star select JS for User Rating form.
+Worked on Bel-Odoo.
+	Started working on Filters of Products API for E-com API.
