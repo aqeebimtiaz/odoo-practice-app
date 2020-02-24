@@ -1051,3 +1051,7 @@ Worked on E-commerce with Jahin.
 	Added Star select JS for User Rating form.
 Worked on Bel-Odoo.
 	Started working on Filters of Products API for E-com API.
+
+24-2
+Worked on Bel-Odoo.
+	Started working on Filters of Products API for E-com API (SQL).
