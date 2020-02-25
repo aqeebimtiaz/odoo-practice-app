@@ -1055,3 +1055,9 @@ Worked on Bel-Odoo.
 24-2
 Worked on Bel-Odoo.
 	Started working on Filters of Products API for E-com API (SQL).
+
+25-2
+Worked on E-commerce with Jahin.
+	Fixed styling of various components.
+Worked on RN App.
+	Tested for Flask app on Test Server & heroku.
