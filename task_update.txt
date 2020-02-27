@@ -1061,3 +1061,15 @@ Worked on E-commerce with Jahin.
 	Fixed styling of various components.
 Worked on RN App.
 	Tested for Flask app on Test Server & heroku.
+
+26-2
+Worked on E-commerce with Jahin.
+	Fixed styling of various components.
+	Added Vanilla JS Rating module.
+Started working again on article list API of Odoo.
+
+27-2
+Worked on E-commerce with Jahin.
+	Fixed styling of various components.
+	Worked on React User Ratings display, etc.
+	Fixed React Shop search issues.
