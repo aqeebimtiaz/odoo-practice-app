@@ -1073,3 +1073,15 @@ Worked on E-commerce with Jahin.
 	Fixed styling of various components.
 	Worked on React User Ratings display, etc.
 	Fixed React Shop search issues.
+
+29-2
+Worked on E-commerce.
+	Added star ratings JS for user ratings.
+Half day Sick Leave from 1PM.
+
+1-3
+Worked on E-commerce with Jahin.
+	Added styling to already posted reviews.
+	Fixed styling of various components.
+Worked on Bel-Odoo.
+	Completed Color List API for ICC e-commerce.
