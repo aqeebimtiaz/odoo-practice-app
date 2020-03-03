@@ -1085,3 +1085,17 @@ Worked on E-commerce with Jahin.
 	Fixed styling of various components.
 Worked on Bel-Odoo.
 	Completed Color List API for ICC e-commerce.
+
+2-3
+Had a meeting with Jahangir Sir for Bay Group HR software.
+	Primary requirements gathering was conducted.
+Worked on E-commerce with Jahin.
+	Tried to R&D for product image zoom on hover.
+Worked on Bel-Odoo.
+	Started Article List PostgreSQL view API for ICC e-commerce.
+	Worked with Billal vai on Attendance module uninstall.
+
+3-3
+Worked on Bel-Odoo.
+	Worked on Article List PostgreSQL view API for ICC e-commerce.
+	Started working on Article List API documentation.
