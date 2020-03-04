@@ -1099,3 +1099,9 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Worked on Article List PostgreSQL view API for ICC e-commerce.
 	Started working on Article List API documentation.
+
+4-3
+Worked on Bel-Odoo.
+	Finalized API documentation.
+	Informed ICC.
+Researched on Odoo 13 HR with Billal vai.
