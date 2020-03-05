@@ -1105,3 +1105,7 @@ Worked on Bel-Odoo.
 	Finalized API documentation.
 	Informed ICC.
 Researched on Odoo 13 HR with Billal vai.
+
+5-3
+Worked on E-commerce.
+	Worked on Product Image zoom functionalities.
