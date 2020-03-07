@@ -1109,3 +1109,10 @@ Researched on Odoo 13 HR with Billal vai.
 5-3
 Worked on E-commerce.
 	Worked on Product Image zoom functionalities.
+
+7-3
+Worked on E-commerce.
+	Worked on Product Image zoom (some issues still remaining)
+Worked on Bel-Odoo.
+	Updated & committed API.
+Installed & Started skimming through Odoo 13.
