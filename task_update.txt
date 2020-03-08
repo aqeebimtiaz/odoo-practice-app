@@ -1116,3 +1116,7 @@ Worked on E-commerce.
 Worked on Bel-Odoo.
 	Updated & committed API.
 Installed & Started skimming through Odoo 13.
+
+8-3
+Worked on Bel-Odoo with Billal vai.
+	Researched on removal of theme_bay (e-commerce).
