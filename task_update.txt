@@ -826,6 +826,10 @@ Completed Flask App Today Sale API.
 Started working BEL RN App.
 	Added custom header & navigations.
 
+###############################################################
+=========================2020==================================
+###############################################################
+
 1-1
 Completed Flask App integration with RN App of Today Sale API.
 
@@ -1120,3 +1124,13 @@ Installed & Started skimming through Odoo 13.
 8-3
 Worked on Bel-Odoo with Billal vai.
 	Researched on removal of theme_bay (e-commerce).
+
+9-3
+Worked on Bel-Odoo.
+	Code review for "theme_bay" removal.
+bayerp.com-AWS- Testing (Reports).
+
+10-3
+bayerp.com-AWS- Testing (Reports & POS).
+Worked on Bel-Odoo.
+	experimenting "theme_bay" removal.
