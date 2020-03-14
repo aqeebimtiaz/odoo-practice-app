@@ -1146,3 +1146,8 @@ Had a meeting with Jahangir Sir for review of Bay Group HR.
 Worked on Bel-Odoo.
 	experimenting "theme_bay" removal.
 bayerp.com-AWS- Testing (POS offline sales).
+
+14-3
+Worked on Bel-Odoo.
+	experimenting "theme_bay" removal.
+bayerp.com-AWS- Testing (Listing All Shops & started with Listing stock Barcodes).
