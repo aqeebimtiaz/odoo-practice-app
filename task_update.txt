@@ -1151,3 +1151,9 @@ bayerp.com-AWS- Testing (POS offline sales).
 Worked on Bel-Odoo.
 	experimenting "theme_bay" removal.
 bayerp.com-AWS- Testing (Listing All Shops & started with Listing stock Barcodes).
+
+15-3
+Worked on Bel-Odoo.
+	completed experimenting "theme_bay" removal.
+bayerp.com-AWS- Testing (Load Testing-POS offline sales, Report & Barcode generation).
+
