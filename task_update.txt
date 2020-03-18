@@ -1161,3 +1161,11 @@ bayerp.com-AWS- Testing (Load Testing-POS offline sales, Report & Barcode genera
 Worked on E-commerce with Jahin.
 	Worked on BEL local server setup (Gunicorn, etc.).
 bayerp.com-AWS- Testing (Load Testing-POS offline sales).
+
+17-3
+Mujib Borsho Celebration Holiday.
+
+18-3
+Worked on Bel-Odoo.
+	completed experimenting "theme_bay" removal on new DB.
+Started working on Odoo-13.
