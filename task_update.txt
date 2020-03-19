@@ -1169,3 +1169,8 @@ Mujib Borsho Celebration Holiday.
 Worked on Bel-Odoo.
 	completed experimenting "theme_bay" removal on new DB.
 Started working on Odoo-13.
+
+19-3
+Started working on Odoo-13.
+	Experimented with 5 payroll modules for a suitable one.
+	Started working on customizing PIMS module.
