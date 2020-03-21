@@ -1174,3 +1174,7 @@ Started working on Odoo-13.
 Started working on Odoo-13.
 	Experimented with 5 payroll modules for a suitable one.
 	Started working on customizing PIMS module.
+
+21-3
+Worked on Bay Group ERP.
+	Started working on 'bay_hr_employee' module.
