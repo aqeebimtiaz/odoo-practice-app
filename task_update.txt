@@ -1178,3 +1178,8 @@ Started working on Odoo-13.
 21-3
 Worked on Bay Group ERP.
 	Started working on 'bay_hr_employee' module.
+
+22-3
+Worked on Bay Group ERP.
+	Experimented with hr_payroll_community & hr_payroll_account_community.
+	Worked on 'bay_hr_employee' module.
