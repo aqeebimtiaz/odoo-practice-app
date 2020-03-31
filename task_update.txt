@@ -1183,3 +1183,39 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Experimented with hr_payroll_community & hr_payroll_account_community.
 	Worked on 'bay_hr_employee' module.
+
+###############################################################
+====================Started Work From Home=====================
+###############################################################
+
+23-3
+Setup Odoo-13 on Home Laptop
+Started working on Bay Group ERP.
+	Worked on "probation period" settings in Employees settings ('bay_hr_employee' module).
+
+24-3
+Setup Odoo-13 on Home PC
+Worked on Bay Group ERP ('bay_hr_employee' module).
+	Worked on 'Employee Type', 'Job Grade' settings in Employees settings
+	Resolve stock_sms error on settings menu.
+
+25-3
+Worked on Bay Group ERP ('bay_hr_employee' module).
+	Apply 'Employee Level', 'Grade Type', 'Designation-Job Grade', 'Job Level' settings in Employees settings
+
+26-3
+Independence Day holiday.
+
+28-3
+Worked on Bay Group ERP ('bay_hr_employee' module).
+	Apply 'Department' settings in Employees Menu.
+	Complete Employee form view.
+
+29-3
+Worked on Bay Group ERP ('bay_hr_employee' module).
+	Complete Employee Directory (tree) view.
+	Started working on Employee Details report.
+
+30-3
+Worked on Bay Group ERP ('bay_hr_employee' module).
+	Completed Employee Details report.
