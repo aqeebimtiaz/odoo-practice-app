@@ -1219,3 +1219,12 @@ Worked on Bay Group ERP ('bay_hr_employee' module).
 30-3
 Worked on Bay Group ERP ('bay_hr_employee' module).
 	Completed Employee Details report.
+
+31-3
+Worked on Bel-Odoo.
+	New Claim Process testing (BEL ERP).
+
+01-4
+Worked on Bay Group ERP.
+	CSS fixing on Odoo 10 & 13.
+	Error fixing on Employee Details report.
