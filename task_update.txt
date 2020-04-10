@@ -1228,3 +1228,37 @@ Worked on Bel-Odoo.
 Worked on Bay Group ERP.
 	CSS fixing on Odoo 10 & 13.
 	Error fixing on Employee Details report.
+
+02-4
+Worked on Bay Group ERP.
+	Error fixing on Employee Details report
+	Employee Bank Accounts settings
+Worked on Bel-Odoo.
+	New Guarantee-Claim Process testing (BEL ERP)
+
+04-4
+Worked on Bay Group ERP.
+	Started working on Employee Contract Types settings
+	Started working on Employee Disciplinary Type settings
+	Finished Employee Job Grade settings re-ordering
+
+05-4
+Worked on Bay Group ERP.
+	Convert 'bay_hr_employee_action' module to Odoo 13 compatible
+	
+06-4
+Worked on Bay Group ERP.
+	Employee Disciplinary Type settings
+	Employee 'Job separation Type' settings
+
+07-4
+Worked on Bel-Odoo.
+	Started working on Stock Accounting New Format
+	
+08-4
+Worked on Bel-Odoo.
+	Worked on Stock Accounting (Finished till 'Return to Guarantee')
+
+09-4
+Worked on Bel-Odoo.
+	Worked on Stock Accounting (Finished till 'Return From Guarantee' & 'Circular Impact')
