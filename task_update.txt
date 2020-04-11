@@ -1262,3 +1262,7 @@ Worked on Bel-Odoo.
 09-4
 Worked on Bel-Odoo.
 	Worked on Stock Accounting (Finished till 'Return From Guarantee' & 'Circular Impact')
+
+11-4
+Worked on Bel-Odoo.
+	Stock Accounting (updated claom settled & unsettled in 'Return From Guarantee' section
