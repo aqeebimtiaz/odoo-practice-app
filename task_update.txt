@@ -1266,3 +1266,7 @@ Worked on Bel-Odoo.
 11-4
 Worked on Bel-Odoo.
 	Stock Accounting (updated claom settled & unsettled in 'Return From Guarantee' section
+
+12-4
+Worked on Bel-Odoo.
+	Stock Accounting (updated claim settled SQL in 'Return From Guarantee' section
