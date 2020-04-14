@@ -1276,3 +1276,7 @@ Worked on Bel-Odoo.
 	Stock Accounting (updated claim settled & unsettled SQL in 'Return From Guarantee' section, updated claim settled SQL in 'Total Receive' section)
 Worked on Bay Group ERP.
 	Fixed age calculation error in Bay Group HR employee details
+
+14-4
+Worked on Bel-Odoo.
+	Stock Accounting (updated claim settled calculation in 'Total Receive' section)
