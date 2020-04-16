@@ -1280,3 +1280,12 @@ Worked on Bay Group ERP.
 14-4
 Worked on Bel-Odoo.
 	Stock Accounting (updated claim settled calculation in 'Total Receive' section)
+
+15-4
+Worked on Bel-Odoo.
+	Started on Stock Accounting (updating SQL performances)
+
+16-4
+Worked on Bel-Odoo.
+	Finished Stock Accounting (updating SQL performances)
+	Stock Accounting (updated Unsettled Repair in Closing Stock)
