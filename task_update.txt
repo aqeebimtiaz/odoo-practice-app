@@ -1289,3 +1289,9 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Finished Stock Accounting (updating SQL performances)
 	Stock Accounting (updated Unsettled Repair in Closing Stock)
+
+18-4
+Online follow-up meeting with Jahangir Sir regarding Bay Group HR.
+Worked on Bel-Odoo.
+	Stock Accounting (add Promotion and Circular sections)
+	Stock Accounting (Test claim transfers)
