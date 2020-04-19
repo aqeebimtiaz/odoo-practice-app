@@ -1295,3 +1295,9 @@ Online follow-up meeting with Jahangir Sir regarding Bay Group HR.
 Worked on Bel-Odoo.
 	Stock Accounting (add Promotion and Circular sections)
 	Stock Accounting (Test claim transfers)
+
+19-4
+Worked on E-commerce.
+	Setup Saleor for image zoom development.
+	Will start working on zoom later.
+Had a meeting with Billal vai to discuss issues on Stock Accounting.
