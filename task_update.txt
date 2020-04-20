@@ -1301,3 +1301,8 @@ Worked on E-commerce.
 	Setup Saleor for image zoom development.
 	Will start working on zoom later.
 Had a meeting with Billal vai to discuss issues on Stock Accounting.
+
+20-4
+Worked on E-commerce with Jahin.
+	fixing issues on setup-collaborating with Jahin
+	Started on Product Image zoom on hover
