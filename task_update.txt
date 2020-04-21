@@ -1306,3 +1306,8 @@ Had a meeting with Billal vai to discuss issues on Stock Accounting.
 Worked on E-commerce with Jahin.
 	fixing issues on setup-collaborating with Jahin
 	Started on Product Image zoom on hover
+
+21-4
+Worked on E-commerce with Jahin.
+	Applied Magnifier on Product Image.
+	Will work with Jahin for higher image resolutions.
