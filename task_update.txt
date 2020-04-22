@@ -1311,3 +1311,10 @@ Worked on E-commerce with Jahin.
 Worked on E-commerce with Jahin.
 	Applied Magnifier on Product Image.
 	Will work with Jahin for higher image resolutions.
+
+22-4
+Worked on E-commerce with Jahin.
+	finished Product Image zoom on hover- Magnifier
+	fixed Product Image resize issue
+	updated Product Add to Cart button, over-all system wide primary button color update
+Had an online meeting with Saiful vai, Billal vai & Jahin regarding product image size.
