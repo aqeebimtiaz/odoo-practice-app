@@ -1318,3 +1318,24 @@ Worked on E-commerce with Jahin.
 	fixed Product Image resize issue
 	updated Product Add to Cart button, over-all system wide primary button color update
 Had an online meeting with Saiful vai, Billal vai & Jahin regarding product image size.
+
+23-4
+Worked on E-commerce.
+	Saleor-Bay E-commerce (Git Ignore issue, Update banner carousel)
+	Meeting with Saiful from E-commerce
+
+24-4
+Worked on Bay Group ERP.
+	Updated Resume section (duration, results, institute, passing year fields) and Updated Employee Details Report
+	Internal software team meeting about upcoming HR presentation to Director Sir & Jahangir Sir
+
+25-4
+Worked on Bay Group ERP.
+	HR Presentation to Director Sir & Jahangir Sir
+	Researching on Attachments Preview modules on Odoo 13
+
+26-4
+Worked on Bay Group ERP.
+	Researched on Print PDF Preview module on Odoo 13
+Worked on Bel-Odoo.
+	BEL-Setup new DB on Test Server for E-commerce API call.
