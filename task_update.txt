@@ -1339,3 +1339,9 @@ Worked on Bay Group ERP.
 	Researched on Print PDF Preview module on Odoo 13
 Worked on Bel-Odoo.
 	BEL-Setup new DB on Test Server for E-commerce API call.
+
+27-4
+Worked on Bel-Odoo.
+	BEL-AWS - Server Load Test (Banani & Uttara-1).
+Worked on E-commerce.
+	Odoo API, Front end sub categories design
