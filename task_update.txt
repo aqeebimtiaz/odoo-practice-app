@@ -1345,3 +1345,14 @@ Worked on Bel-Odoo.
 	BEL-AWS - Server Load Test (Banani & Uttara-1).
 Worked on E-commerce.
 	Odoo API, Front end sub categories design
+
+28-4
+Worked on Bel-Odoo.
+	Updated e-commerce product list API
+Worked on Bay Group ERP.
+	Researched on Document Preview modules
+
+29-4
+Worked on Bel-Odoo.
+	Fixed some errors on e-commerce product list API
+	BEL-AWS - Server Load Test
