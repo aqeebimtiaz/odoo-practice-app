@@ -1356,3 +1356,15 @@ Worked on Bay Group ERP.
 Worked on Bel-Odoo.
 	Fixed some errors on e-commerce product list API
 	BEL-AWS - Server Load Test
+
+30-4
+Worked on Bel-Odoo.
+	Worked on theme_bay removal with Billal vai.
+Worked on E-commerce.
+	Saleor-Bay E-commerce (worked on sub categories designs)
+	Team meeting about Saleor-Bay E-commerce (SSL Commerz Payment)
+
+1-5
+Worked on Bay Group ERP.
+	Updated employee details report (add new "home_town", "driving_license", "em_contact_ids" fields)
+	Fixed resume_lines date check error on employee details
