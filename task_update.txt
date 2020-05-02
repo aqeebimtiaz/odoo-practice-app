@@ -1344,27 +1344,35 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	BEL-AWS - Server Load Test (Banani & Uttara-1).
 Worked on E-commerce.
-	Odoo API, Front end sub categories design
+	Odoo API, Front end sub categories design.
 
 28-4
 Worked on Bel-Odoo.
-	Updated e-commerce product list API
+	Updated e-commerce product list API.
 Worked on Bay Group ERP.
-	Researched on Document Preview modules
+	Researched on Document Preview modules.
 
 29-4
 Worked on Bel-Odoo.
-	Fixed some errors on e-commerce product list API
-	BEL-AWS - Server Load Test
+	Fixed some errors on e-commerce product list API.
+	BEL-AWS - Server Load Test.
 
 30-4
 Worked on Bel-Odoo.
 	Worked on theme_bay removal with Billal vai.
 Worked on E-commerce.
-	Saleor-Bay E-commerce (worked on sub categories designs)
-	Team meeting about Saleor-Bay E-commerce (SSL Commerz Payment)
+	Saleor-Bay E-commerce (worked on sub categories designs).
+	Team meeting about Saleor-Bay E-commerce (SSL Commerz Payment).
 
 1-5
 Worked on Bay Group ERP.
-	Updated employee details report (add new "home_town", "driving_license", "em_contact_ids" fields)
-	Fixed resume_lines date check error on employee details
+	Updated employee details report (add new "home_town", "driving_license", "em_contact_ids" fields).
+	Fixed resume_lines date check error on employee details.
+
+2-5
+Worked on Bay Group ERP.
+	Updated employee details report (add new employee contact relations and reorder joining dates).
+	Meeting Bay Group HR (Jahangir Sir).
+Worked on E-commerce.
+	worked on sub categories designs.
+	Received product card example on e-mail from Kafi vai & Taifur Sir.
