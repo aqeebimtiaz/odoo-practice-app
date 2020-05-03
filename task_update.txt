@@ -1376,3 +1376,9 @@ Worked on Bay Group ERP.
 Worked on E-commerce.
 	worked on sub categories designs.
 	Received product card example on e-mail from Kafi vai & Taifur Sir.
+
+3-5
+Worked on E-commerce.
+	added SSL Commerz Footer Banner.
+Worked on Bel-Odoo.
+	checked login issues upon theme_bay removal.
