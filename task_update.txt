@@ -1382,3 +1382,16 @@ Worked on E-commerce.
 	added SSL Commerz Footer Banner.
 Worked on Bel-Odoo.
 	checked login issues upon theme_bay removal.
+
+4-5
+Worked on E-commerce.
+	Started on homepage-collection image banner
+	Started on similar products on product details page
+	Received product card template on WhatsApp from Kafi vai
+
+5-5
+Worked on E-commerce.
+	Finished payment page-checkboxes-SSL Commerz requirements
+	Finished homepage-collection image
+Worked on Bel-Odoo.
+	BEL-AWS - Server Load Test
