@@ -1395,3 +1395,8 @@ Worked on E-commerce.
 	Finished homepage-collection image
 Worked on Bel-Odoo.
 	BEL-AWS - Server Load Test
+
+6-5
+Worked on E-commerce.
+	homepage-product cards redesign-following template from Taifur Sir
+	product details page-basic size chart added
