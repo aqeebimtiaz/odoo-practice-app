@@ -1398,5 +1398,10 @@ Worked on Bel-Odoo.
 
 6-5
 Worked on E-commerce.
-	homepage-product cards redesign-following template from Taifur Sir
+	started on homepage-product cards redesign-following template from Taifur Sir
 	product details page-basic size chart added
+7-5
+Worked on E-commerce.
+	Completed homepage-product cards redesign-following template from Taifur Sir
+	Completed similar products card design on product details page
+	Updated "add to wishlist" button
