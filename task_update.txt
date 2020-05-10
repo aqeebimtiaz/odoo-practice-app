@@ -1405,3 +1405,23 @@ Worked on E-commerce.
 	Completed homepage-product cards redesign-following template from Taifur Sir
 	Completed similar products card design on product details page
 	Updated "add to wishlist" button
+
+8-5
+Worked on Bay Group ERP.
+	researched on customizing HR Resume Widget
+Worked on Bel-Odoo.
+	BEL-AWS - Server Load Test
+
+9-5
+Worked on Bay Group ERP.
+	researched on customizing HR Resume Widget
+Worked on E-commerce.
+	started on color # codes on product cards
+Worked on Bel-Odoo.
+	BEL-AWS - Server Load Test
+
+10-5
+Worked on E-commerce.
+	Finished color # codes on product cards.
+Worked on Bay Group ERP.
+	Started on Merchandising module-fix shop create error
