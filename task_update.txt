@@ -1425,3 +1425,5 @@ Worked on E-commerce.
 	Finished color # codes on product cards.
 Worked on Bay Group ERP.
 	Started on Merchandising module-fix shop create error
+
+11-5
