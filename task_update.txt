@@ -1427,3 +1427,16 @@ Worked on Bay Group ERP.
 	Started on Merchandising module-fix shop create error
 
 11-5
+Worked on RN App.
+	Consult with Shumon Vai for test server 5000 port connection error
+Worked on Bay Group ERP.
+	researched on customizing HR Resume Widget
+
+12-5
+Worked on Bay Group ERP.
+	presentation with Jahangir Sir-Postponed by Jahangir Sir to a later date due to network issues
+Worked on Bel-Odoo.
+	DB backup & Recap HO generation (Weekly) (27 mar-8 may)
+Worked on RN App.
+	Consult with Shumon Vai for test server 5000 port connection error, another possible error found
+	Primarily setup React Native on PC (for APK generation)
