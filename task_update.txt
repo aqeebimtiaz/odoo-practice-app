@@ -1440,3 +1440,16 @@ Worked on Bel-Odoo.
 Worked on RN App.
 	Consult with Shumon Vai for test server 5000 port connection error, another possible error found
 	Primarily setup React Native on PC (for APK generation)
+
+13-5
+Worked on RN App.
+	Primarily setup React Native on Home PC (Error fix)
+	Consult with Shumon Vai for test server 5000 port connection error, another possible error found
+
+14-5
+Worked on RN App.
+	Primarily setup React Native on PC (Error fix)
+	Started on Check user login permission on App
+Worked on Bel-Odoo.
+	Added User Permission boolean field on BEL ERP Odoo
+	BEL-AWS - Server Load Test
