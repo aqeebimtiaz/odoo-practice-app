@@ -1453,3 +1453,14 @@ Worked on RN App.
 Worked on Bel-Odoo.
 	Added User Permission boolean field on BEL ERP Odoo
 	BEL-AWS - Server Load Test
+
+15-5
+Worked on RN App.
+	tested & configured heroku server with BEL ERP
+	Generated APK (with Heroku server)
+
+16-5
+Worked on RN App.
+	Setup new server configuration (122.144.12.155)
+Worked on Bel-Odoo.
+	Meeting with Taifur Sir, Billal vai & Kafi Vai for task updates & Stock Accounting
