@@ -1464,3 +1464,8 @@ Worked on RN App.
 	Setup new server configuration (122.144.12.155)
 Worked on Bel-Odoo.
 	Meeting with Taifur Sir, Billal vai & Kafi Vai for task updates & Stock Accounting
+
+17-5
+Worked on Bel-Odoo.
+	Stock Accounting (updated claim settled calculation in all sections following the previous day's meeting)
+	Ecom API- Add logging on Product List endpoint
