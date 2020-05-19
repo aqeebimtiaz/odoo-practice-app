@@ -1469,3 +1469,12 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Stock Accounting (updated claim settled calculation in all sections following the previous day's meeting)
 	Ecom API- Add logging on Product List endpoint
+
+18-5
+Worked on Bel-Odoo.
+	Ecom API- Added view for API call logs
+	Stock Accounting (Opening & Closing Stock Checked)
+
+19-5
+Worked on Bel-Odoo.
+	Started Stock Accounting (Debit & Credit equality error check)
