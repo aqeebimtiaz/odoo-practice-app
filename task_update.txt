@@ -1478,3 +1478,10 @@ Worked on Bel-Odoo.
 19-5
 Worked on Bel-Odoo.
 	Started Stock Accounting (Debit & Credit equality error check)
+	Ecom API-Update view for descending order
+
+20-5
+Worked on Bel-Odoo.
+	Stock Accounting (fixed 0 debit nft value error)
+	Stock Accounting (fixed 0 Claim Settled Stock In error)
+	Stock Accounting (Finished Debit & Credit equality error check)
