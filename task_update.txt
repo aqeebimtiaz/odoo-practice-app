@@ -1485,3 +1485,8 @@ Worked on Bel-Odoo.
 	Stock Accounting (fixed 0 debit nft value error)
 	Stock Accounting (fixed 0 Claim Settled Stock In error)
 	Stock Accounting (Finished Debit & Credit equality error check)
+
+21-5
+Worked on Bel-Odoo.
+	BEL-AWS - Server Load Test
+	Started on Stock Accounting (check all claim process in few stores)
