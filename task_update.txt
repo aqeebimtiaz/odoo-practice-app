@@ -1500,3 +1500,18 @@ Worked on Bel-Odoo.
 	Bay Group HR-Listed findings of Resume & Document Preview
 Worked on RN App.
 	Added App Icon (Issues found, need to change the image)
+
+=============
+23/5 - 26/5
+EID VACATION
+=============
+
+27-5
+Worked on Bel-Odoo.
+	Started on Stock Accounting (check SQLs for Promotions/Discounts & Circular sections)
+	Downloaded & started Preparing 27 May DB backup for Jahin
+
+28-5
+Worked on Bel-Odoo.
+	Continued Stock Accounting (check SQLs for Promotions/Discounts & Circular sections)
+	Continued Prepare 27 May DB backup for Jahin
