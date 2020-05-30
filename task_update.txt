@@ -1515,3 +1515,13 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Continued Stock Accounting (check SQLs for Promotions/Discounts & Circular sections)
 	Continued Prepare 27 May DB backup for Jahin
+29-5
+Worked on Bel-Odoo.
+	Continued Stock Accounting (check SQLs for Promotions/Discounts & Circular sections)
+
+30-5
+Worked on Bel-Odoo.
+	Continued Stock Accounting (check SQLs for Promotions/Discounts & Circular sections)
+Worked on RN App.
+	App Icon (Fixed issues found earlier)
+	Started to Rename App to "Bay Emporium" (Issues found-App crash, need to check the error)
