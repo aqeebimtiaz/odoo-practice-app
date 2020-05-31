@@ -1525,3 +1525,7 @@ Worked on Bel-Odoo.
 Worked on RN App.
 	App Icon (Fixed issues found earlier)
 	Started to Rename App to "Bay Emporium" (Issues found-App crash, need to check the error)
+
+31-5
+Worked on RN App.
+	Fixed Rename App Error (Display name) (Following this: https://dev.to/karanpratapsingh/quick-guide-for-updating-package-name-in-react-native-3ei3)
