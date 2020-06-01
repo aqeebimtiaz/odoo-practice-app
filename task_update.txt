@@ -1529,3 +1529,8 @@ Worked on RN App.
 31-5
 Worked on RN App.
 	Fixed Rename App Error (Display name) (Following this: https://dev.to/karanpratapsingh/quick-guide-for-updating-package-name-in-react-native-3ei3)
+
+1-6
+Worked on RN App.
+	fix "modal not closing on network failure" bug
+	fix "32573 as shop contact where it's actually false" bug
