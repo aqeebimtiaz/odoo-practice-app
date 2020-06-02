@@ -1534,3 +1534,7 @@ Worked on RN App.
 Worked on RN App.
 	fix "modal not closing on network failure" bug
 	fix "32573 as shop contact where it's actually false" bug
+
+2-6
+Worked on RN App.
+	Started researching user login permission on Odoo
