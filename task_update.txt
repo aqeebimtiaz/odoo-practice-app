@@ -1538,3 +1538,9 @@ Worked on RN App.
 2-6
 Worked on RN App.
 	Started researching user login permission on Odoo
+
+3-6
+Worked on Bel-Odoo.
+	Started add custom login function on BEL ERP Odoo
+Worked on RN App.
+	Started modifying login with /mobile/login endpoint)(custom login
