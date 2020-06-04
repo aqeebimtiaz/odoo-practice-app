@@ -1543,4 +1543,8 @@ Worked on RN App.
 Worked on Bel-Odoo.
 	Started add custom login function on BEL ERP Odoo
 Worked on RN App.
-	Started modifying login with /mobile/login endpoint)(custom login
+	Started modifying login with /mobile/login endpoint)(custom login)
+
+4-6
+Worked on Bel-Odoo.
+	Started fixing errors on flask server's 404 on custom login function on BEL ERP Odoo
