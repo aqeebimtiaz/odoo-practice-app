@@ -1548,3 +1548,11 @@ Worked on RN App.
 4-6
 Worked on Bel-Odoo.
 	Started fixing errors on flask server's 404 on custom login function on BEL ERP Odoo
+
+6-6
+Worked on Bel-Odoo.
+	Finished researching user login permission on Odoo.
+	Finished fixing errors on flask server's 404 on custom login function on BEL ERP Odoo.
+	Added new API endpoint to check user login permission on Odoo when trying to login.
+Worked on RN App.
+	Added login permission check.
