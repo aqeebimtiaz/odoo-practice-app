@@ -1556,3 +1556,11 @@ Worked on Bel-Odoo.
 	Added new API endpoint to check user login permission on Odoo when trying to login.
 Worked on RN App.
 	Added login permission check.
+
+7-6
+Worked on Bel-Odoo.
+	added user permission check on Today Sale List & Shop List mobile API endpoint
+Worked on RN App.
+	added user permission check on Today Sale List & Shop List pages
+	added global logout helper function 
+		and added after user permission check on Today Sale List & Shop List pages
