@@ -1564,3 +1564,8 @@ Worked on RN App.
 	added user permission check on Today Sale List & Shop List pages
 	added global logout helper function 
 		and added after user permission check on Today Sale List & Shop List pages
+
+8-6
+Worked on RN App.
+	added "Prevent Screenshot" feature on Android
+	Started to Investigate unknown error on Shop List page
