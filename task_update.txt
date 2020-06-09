@@ -1569,3 +1569,9 @@ Worked on RN App.
 Worked on RN App.
 	added "Prevent Screenshot" feature on Android
 	Started to Investigate unknown error on Shop List page
+
+9-6
+Worked on RN App.
+	Continued to Investigate unknown error on Shop List page
+Worked on Bel-Odoo.
+	Checked historical data on Stock Accounting
