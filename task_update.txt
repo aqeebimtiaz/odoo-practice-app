@@ -1575,3 +1575,11 @@ Worked on RN App.
 	Continued to Investigate unknown error on Shop List page
 Worked on Bel-Odoo.
 	Checked historical data on Stock Accounting
+
+10-6
+Worked on RN App.
+	Finished to Investigate unknown error on Shop List page.
+	Completed Add & update Readme with full installation instructions.
+	Generated new APK & shared with Software team.
+Worked on Bel-Odoo.
+	Started to Customize Login page.
