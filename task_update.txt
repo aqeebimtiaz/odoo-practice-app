@@ -1583,3 +1583,9 @@ Worked on RN App.
 	Generated new APK & shared with Software team.
 Worked on Bel-Odoo.
 	Started to Customize Login page.
+
+11-6
+Worked on Bel-Odoo.
+	Finished Customize Login page
+Worked on RN App.
+	Finished researching APK releasing to Google Play Store
