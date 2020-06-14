@@ -1594,3 +1594,7 @@ Worked on RN App.
 Worked on Bay Group ERP.
 	Started Research Document Preview.
 	Found possible error on bay_hr_employee_requisition. (Error reported to Jahin for further analysis)
+
+14-6
+Worked on Bay Group ERP.
+	Continued Research Document Preview.
