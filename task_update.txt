@@ -1602,3 +1602,9 @@ Worked on Bay Group ERP.
 15-6
 Worked on Bay Group ERP.
 	Continued Research Document Preview.
+
+16-6
+Worked on Bay Group ERP.
+	Continued Research Document Preview. (On hold, for starting Recruitment module)
+	Started Recruitment module transfer from BEL ERP.
+
