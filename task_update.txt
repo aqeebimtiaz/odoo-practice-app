@@ -1611,3 +1611,8 @@ Worked on Bay Group ERP.
 17-6
 Worked on Bay Group ERP.
 	Started to Fix errors while transferring Recruitment module from BEL ERP
+
+18-6
+Worked on Bay Group ERP.
+	Started to Fix errors while transferring Recruitment module from BEL ERP
+	Finished Transfer from postgreSQL 11 to 12
