@@ -1616,3 +1616,8 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Started to Fix errors while transferring Recruitment module from BEL ERP
 	Finished Transfer from postgreSQL 11 to 12
+
+20-6
+Worked on Bay Group ERP.
+	Restored DB backup from Billal vai to PostgreSQL 12.
+	Continued to Fix errors while transferring Recruitment module from BEL ERP
