@@ -1626,3 +1626,9 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Continued to Fix errors while transferring Recruitment module from BEL ERP
 	(pushed to BitBucket for full team's review)
+
+22-6
+Worked on Bel-Odoo.
+	Completed BEL-AWS - Server Load Test
+Worked on Bay Group ERP.
+	Started to Fix errors in Recruitment module one by one xpaths
