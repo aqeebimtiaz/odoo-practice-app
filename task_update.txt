@@ -1632,3 +1632,8 @@ Worked on Bel-Odoo.
 	Completed BEL-AWS - Server Load Test
 Worked on Bay Group ERP.
 	Started to Fix errors in Recruitment module one by one xpaths
+
+23-6
+Worked on Bay Group ERP.
+	Started to Fix errors in Recruitment module one by one xpaths
+	Finished Adding security rules on Recruitment module
