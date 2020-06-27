@@ -1647,3 +1647,7 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Finished - Customize create_employee method on Recruitment module
 	Started to fix errors on Applicant Form print on Recruitment module
+
+27-6
+Worked on Bay Group ERP.
+	Started to add languages on Applicant Form to Employee creation
