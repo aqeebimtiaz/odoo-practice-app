@@ -1651,3 +1651,7 @@ Worked on Bay Group ERP.
 27-6
 Worked on Bay Group ERP.
 	Started to add languages on Applicant Form to Employee creation
+
+28-6
+Worked on Bay Group ERP.
+	Continued to fix errors on Applicant Form print on Recruitment module
