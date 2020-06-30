@@ -1660,3 +1660,8 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Continued to fix errors on Applicant Form print on Recruitment module
 	(Spacebar.error.on.keyboard)
+
+30-6
+Worked on Bay Group ERP.
+	Completed to fix errors on Applicant Form print on Recruitment module
+	Started to fix CSS on Applicant Form print on Recruitment module
