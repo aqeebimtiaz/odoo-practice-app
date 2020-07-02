@@ -1670,3 +1670,7 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Continued to fix CSS on Applicant Form print on Recruitment module
 	Completed to fix applicant image on Applicant Form print
+
+2-7
+Worked on Bay Group ERP.
+	Started Redesigning to fix CSS on Applicant Form print
