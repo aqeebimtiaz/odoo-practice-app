@@ -1692,5 +1692,11 @@ Setup PC at Bay Hazaribag office.
 6-7
 Worked on Bay Group ERP.
 	Completed to Redesigning to fix CSS on Applicant Form print
-Worked on Bel
+Worked on Bel-Sales Dashboard
 	Researching on multiple templates for Sales Dashboard.
+
+7-7
+Worked on Bel-Sales Dashboard
+	Continued researching on multiple templates.
+	Started building Flask server & React node server.
+		Started on Login page
