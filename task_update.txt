@@ -1700,3 +1700,6 @@ Worked on Bel-Sales Dashboard
 	Continued researching on multiple templates.
 	Started building Flask server & React node server.
 		Started on Login page
+8-7
+Worked on Bel-Sales Dashboard
+	Continued on Login Page with API integration.
