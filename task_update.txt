@@ -1703,3 +1703,10 @@ Worked on Bel-Sales Dashboard
 8-7
 Worked on Bel-Sales Dashboard
 	Continued on Login Page with API integration.
+
+9-7
+Worked on Bel-Sales Dashboard
+	Continued on Login Page with API integration.
+	Started on Dashboard Page.
+		Completed Top 10 Shops section with auto fetch every 1 minute.
+		Added today total sales section.
