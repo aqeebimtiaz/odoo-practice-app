@@ -1710,3 +1710,10 @@ Worked on Bel-Sales Dashboard
 	Started on Dashboard Page.
 		Completed Top 10 Shops section with auto fetch every 1 minute.
 		Added today total sales section.
+
+11-7
+Worked on Bel-Sales Dashboard
+	Started on Dashboard Page.
+		Started adding previous 7 days sales bar chart.
+Worked on Bel-Odoo with Jahin.
+	Developed SQL & API endpoint on bay_api_mobile module for previous 7 days sales.
