@@ -1727,3 +1727,8 @@ Worked on Bel-Sales Dashboard
 	Compiled SASS to single CSS file.
 	Continued on Dashboard Page.
 		Experimented on multiple packages for Bar Chart.
+
+14-7
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		Added previous 7 days sales bar chart using Nivo.
