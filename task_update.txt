@@ -1732,3 +1732,10 @@ Worked on Bel-Sales Dashboard
 Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		Added previous 7 days sales bar chart using Nivo.
+
+15-7
+Worked on Bel-Odoo.
+	Modified SQL for today's sales & previous days sales on bay_api_mobile module.
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		Added top 10 shop sale & total sales up or down status with Bootstrap icons.
