@@ -1739,3 +1739,10 @@ Worked on Bel-Odoo.
 Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		Added top 10 shop sale & total sales up or down status with Bootstrap icons.
+
+16-7
+Worked on Bel-Sales Dashboard.
+	Fixed Bay Logo error on Login page.
+	Continued on Dashboard Page.
+		fixed bar chart hover issue.
+		started on gauge chart, experimented with few packages.
