@@ -1746,3 +1746,10 @@ Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		fixed bar chart hover issue.
 		started on gauge chart, experimented with few packages.
+
+18-7
+Worked on Bel-Odoo with Jahin.
+	BEL-AWS - Server Load Test (researched on Locust & JMeter)
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		Added basic speedometer gauge chart.
