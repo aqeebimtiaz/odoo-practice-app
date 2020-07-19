@@ -1753,3 +1753,11 @@ Worked on Bel-Odoo with Jahin.
 Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		Added basic speedometer gauge chart.
+
+19-7
+Worked on Bel-Odoo.
+	Prepared SQL for Week-Month caledar & start_date & end_date of each month.
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		replaced up & down icons with images.
+		Added format for all shop sale value table.
