@@ -1761,3 +1761,12 @@ Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		replaced up & down icons with images.
 		Added format for all shop sale value table.
+
+20-7
+Worked on Bel-Odoo.
+	Prepared SQL for monthly_estimate.
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		Added monthly estimate section, 
+		added remaining days calculation & pass the data to speedometer chart.
+	Add Monthly Estimate route.
