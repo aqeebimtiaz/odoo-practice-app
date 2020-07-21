@@ -1770,3 +1770,10 @@ Worked on Bel-Sales Dashboard.
 		Added monthly estimate section, 
 		added remaining days calculation & pass the data to speedometer chart.
 	Add Monthly Estimate route.
+
+21-7
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		performed code cleanup
+		add user floating popover card
+		add bay_logo & user card menu icon
