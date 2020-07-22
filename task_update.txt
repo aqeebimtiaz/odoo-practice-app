@@ -1777,3 +1777,8 @@ Worked on Bel-Sales Dashboard.
 		performed code cleanup
 		add user floating popover card
 		add bay_logo & user card menu icon
+
+22-7
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		added custom bottom axis on Bar Chart.
