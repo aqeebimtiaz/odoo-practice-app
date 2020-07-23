@@ -1782,3 +1782,9 @@ Worked on Bel-Sales Dashboard.
 Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		added custom bottom axis on Bar Chart.
+
+23-7
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		added new burger side menu
+		added logout functionalities
