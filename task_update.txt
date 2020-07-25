@@ -1788,3 +1788,8 @@ Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		added new burger side menu
 		added logout functionalities
+
+25-7
+Morning short leave (8-10)
+Worked on Bel-Sales Dashboard.
+	Added readme.
