@@ -1793,3 +1793,10 @@ Worked on Bel-Sales Dashboard.
 Morning short leave (8-10)
 Worked on Bel-Sales Dashboard.
 	Added readme.
+
+26-7
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		add loading spinner on Today's top 10 shops list
+		remove @bit-ring-spinners
+		update sidebar for user name & email
