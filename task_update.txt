@@ -1800,3 +1800,9 @@ Worked on Bel-Sales Dashboard.
 		add loading spinner on Today's top 10 shops list
 		remove @bit-ring-spinners
 		update sidebar for user name & email
+
+27-7
+Worked on Bel-Sales Dashboard.
+	Continued on Dashboard Page.
+		add new comingSoon helper function
+		add modal with date & time selector on sidebar
