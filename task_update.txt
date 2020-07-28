@@ -1806,3 +1806,9 @@ Worked on Bel-Sales Dashboard.
 	Continued on Dashboard Page.
 		add new comingSoon helper function
 		add modal with date & time selector on sidebar
+
+28-7
+Worked on Bel-Sales Dashboard.
+	customize user card on side bar
+	customize settings modal
+	add query date calculation on Auth, Dashboard & monthly estimate API
