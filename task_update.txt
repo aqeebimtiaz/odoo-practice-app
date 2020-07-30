@@ -1817,3 +1817,8 @@ Worked on Bel-Sales Dashboard.
 Worked on Bel-Sales Dashboard.
 	fix pre-defined date on settings modal & update reset logo
 	add query date to today sale, previous 7 days sale
+
+30-7
+Worked on Bel-Sales Dashboard.
+	add application name for every api call
+	add log table for mobile api endpoints
