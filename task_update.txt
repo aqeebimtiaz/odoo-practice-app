@@ -1822,3 +1822,17 @@ Worked on Bel-Sales Dashboard.
 Worked on Bel-Sales Dashboard.
 	add application name for every api call
 	add log table for mobile api endpoints
+
+=============
+31/7 - 02/7
+EID VACATION
+=============
+
+03-8
+Worked on Bel-Sales Dashboard.
+	updated gitignore on production branch
+	merge dev with production for v1.
+Worked on Bel-Odoo.
+	update today live sales list with previous day's calculation for mobile app & Dashboard compatibility.
+Worked on RN App.
+	add yesterday sale calc on today sale page
