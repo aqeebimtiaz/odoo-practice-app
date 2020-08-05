@@ -1841,3 +1841,12 @@ Worked on RN App.
 Worked on Bel-Sales Dashboard.
 	Deloyed to server: 122.144.12.155:8000
 Worked on Bay & BEL ERP presentation Google Sheets.
+
+05-8
+Worked on Bel-Odoo.
+	Apply new DB backup of August 4.
+	Tried to fix error with Jahin.
+Worked on Bay Group ERP.
+	Started planning on Employee Travelling Register module.
+	Completed primary planning & searching for free modules.
+	Started planning Excel Sheet on Google Sheets.
