@@ -1850,3 +1850,11 @@ Worked on Bay Group ERP.
 	Started planning on Employee Travelling Register module.
 	Completed primary planning & searching for free modules.
 	Started planning Excel Sheet on Google Sheets.
+
+06-8
+Sick Leave due to severe sinus headache.
+
+08-8
+Worked on Bay Group ERP.
+	Finalized planning on Employee Travelling Register module.
+	Started on creating primary bay_hr_employee_travelling module.
