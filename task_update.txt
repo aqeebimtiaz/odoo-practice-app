@@ -1858,3 +1858,8 @@ Sick Leave due to severe sinus headache.
 Worked on Bay Group ERP.
 	Finalized planning on Employee Travelling Register module.
 	Started on creating primary bay_hr_employee_travelling module.
+
+09-8
+Worked on Bay Group ERP.
+	Created Employee Travelling, Travelling Lines & Expenses Table.
+	Created tree & form views for each table under single view of Travelling.
