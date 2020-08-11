@@ -1863,3 +1863,11 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Created Employee Travelling, Travelling Lines & Expenses Table.
 	Created tree & form views for each table under single view of Travelling.
+
+10-8
+Worked on Bay Group ERP.
+	Added Travelling Expenses tree & form views.
+
+11-8
+Worked on Bay Group ERP.
+	Added Travelling Program & Expenses report.
