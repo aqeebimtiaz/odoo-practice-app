@@ -1888,4 +1888,9 @@ Started setting up Home PC for BEL & Bay Group ERP.
 ### National Mourning Day off ###
 
 16-8
-
+Worked on Bel-Sales Dashboard.
+	fixed shop's sale up & down issue
+	add monthly estimate to interval call & update interval to 10 mins
+	Pushed all updates to production server.
+Worked on Bel-Odoo.
+	Fixed past 7 days sales API's SQL error.
