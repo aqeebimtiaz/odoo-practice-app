@@ -1894,3 +1894,8 @@ Worked on Bel-Sales Dashboard.
 	Pushed all updates to production server.
 Worked on Bel-Odoo.
 	Fixed past 7 days sales API's SQL error.
+
+17-8
+Worked on Bel-Sales Dashboard.
+	Fix errors on BEL Sales Dashboard
+	Add Remaining monthly sales target & Per day Forecast on Dashboard
