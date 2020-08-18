@@ -1901,3 +1901,8 @@ Worked on Bel-Sales Dashboard.
 	Add Remaining monthly sales target & Per day Forecast on Dashboard
 Worked on Bel-Odoo.
 	Completed BEL-AWS - Server Load Test
+
+18-8
+Worked on Bel-Sales Dashboard.
+	Add Monthly Sales Forecast calculations
+	Add Forecast marker on Past 7 Days sales barchart
