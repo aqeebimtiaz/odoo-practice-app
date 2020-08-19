@@ -1906,3 +1906,7 @@ Worked on Bel-Odoo.
 Worked on Bel-Sales Dashboard.
 	Add Monthly Sales Forecast calculations
 	Add Forecast marker on Past 7 Days sales barchart
+
+19-8
+Worked on Bel-Odoo.
+	Started to Modify Today Sales List SQL on BEL-Odoo for Dashboard
