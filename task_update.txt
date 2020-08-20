@@ -1910,3 +1910,7 @@ Worked on Bel-Sales Dashboard.
 19-8
 Worked on Bel-Odoo.
 	Started to Modify Today Sales List SQL on BEL-Odoo for Dashboard
+
+20-8
+Worked on Bel-Odoo.
+	Continued to Modify Today Sales List SQL on BEL-Odoo for Dashboard (Collaborated with Jahin)
