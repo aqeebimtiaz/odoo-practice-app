@@ -1918,3 +1918,9 @@ Worked on Bel-Odoo.
 22-8
 Worked on Bel-Odoo.
 	Continued to Modify Today Sales List SQL on BEL-Odoo for Dashboard (worked on the received modified file from Jahin)
+
+23-8
+Worked on Bel-Odoo.
+	added Mobile App & Sales Dashboard API Log view
+Worked on E-commerce.
+	Add documentation of BEL Odoo E-commerce API endpoints
