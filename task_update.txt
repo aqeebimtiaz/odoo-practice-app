@@ -1924,3 +1924,10 @@ Worked on Bel-Odoo.
 	added Mobile App & Sales Dashboard API Log view
 Worked on E-commerce.
 	Add documentation of BEL Odoo E-commerce API endpoints
+
+24-8
+Worked on Bel-Odoo.
+	Started to Prepare documentation of Mobile App & Sales Dashboard API in BEL Odoo
+Worked on Bay Group ERP.
+	Bay Group HR-Add Travelling details to Bay Presentation Document
+Had a discussion about Cashback & E-wallet for e-commerce with Taifur Sir
