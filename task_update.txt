@@ -1931,3 +1931,10 @@ Worked on Bel-Odoo.
 Worked on Bay Group ERP.
 	Bay Group HR-Add Travelling details to Bay Presentation Document
 Had a discussion about Cashback & E-wallet for e-commerce with Taifur Sir
+
+25-8
+Worked on Bel-Odoo.
+	Completed Migration to new BOL server & testing menus
+	Tested Sales Dashboard & Mobile APIs on new report server(report.bayerp.com).
+Worked on Bel-Sales Dashboard.
+	Added new report.bayerp.com to Sales Dashboard backend.
