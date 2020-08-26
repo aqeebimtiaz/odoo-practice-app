@@ -1938,3 +1938,12 @@ Worked on Bel-Odoo.
 	Tested Sales Dashboard & Mobile APIs on new report server(report.bayerp.com).
 Worked on Bel-Sales Dashboard.
 	Added new report.bayerp.com to Sales Dashboard backend.
+
+26-8
+Worked on RN App.
+	Updated Mobile app Flask Server for new report.bayerp.com
+Worked on Bel-Sales Dashboard.
+	Updated BEL Sales Dashboard Flask Server for new report.bayerp.com
+Worked on Bel-Odoo.
+	Continued to Prepare documentation of Mobile App & Sales Dashboard API in BEL Odoo 
+		(completed Auth, Shop List & Today Sale List)
