@@ -1947,3 +1947,8 @@ Worked on Bel-Sales Dashboard.
 Worked on Bel-Odoo.
 	Continued to Prepare documentation of Mobile App & Sales Dashboard API in BEL Odoo 
 		(completed Auth, Shop List & Today Sale List)
+
+27-8
+Worked on Bel-Odoo.
+	Completed documentation of Mobile App & Sales Dashboard API in BEL Odoo
+	Tested BEL Odoo Mobile App & Dashboard APIs
