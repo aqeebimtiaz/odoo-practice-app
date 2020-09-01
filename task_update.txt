@@ -1952,3 +1952,21 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	Completed documentation of Mobile App & Sales Dashboard API in BEL Odoo
 	Tested BEL Odoo Mobile App & Dashboard APIs
+
+29-8
+Worked on Bel-Sales Dashboard.
+	Started on Flask App Documentation.
+
+###############################################################
+=====================End of Work From Home=====================
+###############################################################
+
+31-8
+Worked on Bel-Odoo.
+	Uploaded new DB Backup.
+	Updated Monthly estimate calculation for month calc error.
+
+1-9
+Worked on Bel-Sales Dashboard.
+	Completed Flask App Documentation.
+
