@@ -1975,3 +1975,8 @@ Worked on RN App.
 	Started with Flask App Documentation.
 Worked on Bel-Odoo.
 	Looked up for possible causes of Black Screen on POS.
+
+3-9
+Worked on Bel-Sales Dashboard.
+	Fixed Query Date display error on Header.
+	Deployed project to Heroku (https://bel-dashboard.herokuapp.com/).
