@@ -1980,3 +1980,9 @@ Worked on Bel-Odoo.
 Worked on Bel-Sales Dashboard.
 	Fixed Query Date display error on Header.
 	Deployed project to Heroku (https://bel-dashboard.herokuapp.com/).
+
+5-9
+Worked on Bel-Sales Dashboard.
+	Fixed window.location.host URL error for both Bay Server & Heroku.
+Worked on Bel-Odoo.
+	Started Task handover to Jahin of Stock Accounting.
