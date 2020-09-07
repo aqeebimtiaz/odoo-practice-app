@@ -1986,3 +1986,10 @@ Worked on Bel-Sales Dashboard.
 	Fixed window.location.host URL error for both Bay Server & Heroku.
 Worked on Bel-Odoo.
 	Started Task handover to Jahin of Stock Accounting.
+
+6-9
+Sick Leave due to Sinus Headache.
+
+7-9
+Worked on Bel-Odoo.
+	Finished Report documentation of SIR & Aging Report.
