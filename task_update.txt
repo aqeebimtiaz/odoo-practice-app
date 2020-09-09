@@ -1993,3 +1993,13 @@ Sick Leave due to Sinus Headache.
 7-9
 Worked on Bel-Odoo.
 	Finished Report documentation of SIR & Aging Report.
+
+8-9
+Worked on Bel-Odoo.
+	Updated Today Sale SQL for time specific results.
+	Tested SQL on Billal Vai's PC for live data.
+9-9
+Worked with Billal Vai for work handover.
+Worked with Jahin for work handover.
+	Briefed about Stock Accounting, Claim Process.
+Reported Dashboard Server's slow js delivery issue to Shumon vai.
