@@ -2003,3 +2003,10 @@ Worked with Billal Vai for work handover.
 Worked with Jahin for work handover.
 	Briefed about Stock Accounting, Claim Process.
 Reported Dashboard Server's slow js delivery issue to Shumon vai.
+
+10-9
+Worked on Bel-Odoo.
+	Added past 7 weeks' sales API for Dashboard.
+11-9
+Worked with Jahin for work handover.
+	worked on Claim Process documentation.
