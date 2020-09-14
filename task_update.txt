@@ -2007,6 +2007,18 @@ Reported Dashboard Server's slow js delivery issue to Shumon vai.
 10-9
 Worked on Bel-Odoo.
 	Added past 7 weeks' sales API for Dashboard.
-11-9
+12-9
 Worked with Jahin for work handover.
 	worked on Claim Process documentation.
+
+13-9
+Work From Home due to headache.
+Worked on Bay Group ERP.
+	Worked with Billal Vai for work handover.
+	Investigated company selection permission bug in Recruitment module.
+	Investigated employee selection issues in Travelling module.
+
+14-9
+Worked on Bay Group ERP.
+	Added 5 Stages in Employee Travelling Form view.
+	Started to fix employee selection issues in Travelling module.
