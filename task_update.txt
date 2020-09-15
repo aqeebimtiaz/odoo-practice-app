@@ -2022,3 +2022,11 @@ Worked on Bay Group ERP.
 Worked on Bay Group ERP.
 	Added 5 Stages in Employee Travelling Form view.
 	Started to fix employee selection issues in Travelling module.
+
+15-9
+Worked on Bay Group ERP.
+	add company domain, employee filter by company in Travelling
+	fix empty bank account error in Employee
+	rename & rearrange date fields in Travelling forms
+Worked on Bel-Odoo.
+	Experimented with creating CSV from localStorage sales data in JS
