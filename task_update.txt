@@ -2030,3 +2030,8 @@ Worked on Bay Group ERP.
 	rename & rearrange date fields in Travelling forms
 Worked on Bel-Odoo.
 	Experimented with creating CSV from localStorage sales data in JS
+
+16-9
+Worked on Bel-Odoo.
+	prepared sql for shopwise sales list in date range
+	add date_wise_sales_list API for mobile app
