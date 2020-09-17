@@ -2035,3 +2035,7 @@ Worked on Bel-Odoo.
 Worked on Bel-Odoo.
 	prepared sql for shopwise sales list in date range
 	add date_wise_sales_list API for mobile app
+
+17-9
+Worked with Billal Vai for work handover.
+	worked on BEL Mobile App.
