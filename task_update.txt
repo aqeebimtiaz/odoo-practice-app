@@ -2039,3 +2039,10 @@ Worked on Bel-Odoo.
 17-9
 Worked with Billal Vai for work handover.
 	worked on BEL Mobile App.
+
+19-9
+Worked on RN App.
+	Fixed AsyncStorage import error (from 'react-native' to 'community').
+	Started on Date Range Sale list screen.
+		Added Date Picker, issues faced.
+
