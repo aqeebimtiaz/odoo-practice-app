@@ -2046,3 +2046,7 @@ Worked on RN App.
 	Started on Date Range Sale list screen.
 		Added Date Picker, issues faced.
 
+20-9
+Worked on RN App.
+	Fixed date picker error.
+	Added search button.
