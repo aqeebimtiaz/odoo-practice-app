@@ -2050,3 +2050,12 @@ Worked on RN App.
 Worked on RN App.
 	Fixed date picker error.
 	Added search button.
+
+21-9
+Worked on Bel-Odoo.
+	Fixed shop name error in Date wise sale API's sql.
+Worked on RN App.
+	Added route & functions in Flask Server.
+	Added fetch function for API call. (some errors remain on validation checks)
+	applied minor fixes on Shop List & Today Sales List screens.
+
