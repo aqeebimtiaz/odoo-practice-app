@@ -2059,3 +2059,10 @@ Worked on RN App.
 	Added fetch function for API call. (some errors remain on validation checks)
 	applied minor fixes on Shop List & Today Sales List screens.
 
+22-9
+Worked on Bel-Odoo.
+	update Today Sale & Date Wise Sale SQL for ORDER BY
+Worked on RN App.
+	researched for getting MAC Address or unique IDs for each devices
+	attempted to create custom drawer menu.
+	discussed with Billal vai about settings json during login
