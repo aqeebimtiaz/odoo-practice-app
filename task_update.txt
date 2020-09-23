@@ -2066,3 +2066,10 @@ Worked on RN App.
 	researched for getting MAC Address or unique IDs for each devices
 	attempted to create custom drawer menu.
 	discussed with Billal vai about settings json during login
+
+23-9
+Worked on RN App.
+	added unique id function for android & ios for login
+Worked on Bel-Odoo.
+	added device id & last login date in res_user table
+	added device id check during mobile app login
