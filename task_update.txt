@@ -2073,3 +2073,10 @@ Worked on RN App.
 Worked on Bel-Odoo.
 	added device id & last login date in res_user table
 	added device id check during mobile app login
+
+24-9
+Worked on RN App.
+	Added verify unique device_id & error handaling for login
+Worked on Bel-Odoo.
+	modified device_id & last_login_date functionality & error handling during login
+	Started with user settings table for mobile API & app
