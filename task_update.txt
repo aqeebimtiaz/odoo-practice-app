@@ -2080,3 +2080,9 @@ Worked on RN App.
 Worked on Bel-Odoo.
 	modified device_id & last_login_date functionality & error handling during login
 	Started with user settings table for mobile API & app
+
+26-9
+Worked on Bel-Odoo.
+	Add user mobile app settings model, view
+	Add mobile app settings to res_user model & view
+	Fix mobile_device_id check False error
