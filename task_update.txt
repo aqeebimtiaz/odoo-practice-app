@@ -2086,3 +2086,9 @@ Worked on Bel-Odoo.
 	Add user mobile app settings model, view
 	Add mobile app settings to res_user model & view
 	Fix mobile_device_id check False error
+
+27-9
+Worked on Bel-Odoo.
+	Added security csv for bay_api_mobile_settings & bay_api_mobile_log tables
+	Started on Stock Accounting.
+		Started with Discount Sale section's SQLs.
