@@ -2092,3 +2092,13 @@ Worked on Bel-Odoo.
 	Added security csv for bay_api_mobile_settings & bay_api_mobile_log tables
 	Started on Stock Accounting.
 		Started with Discount Sale section's SQLs.
+
+28-9
+Worked on Bel-Odoo.
+	update discount sale & promo sale SQLs in Stock Accounting
+	fix discount section's debit-credit calc in Stock Accounting
+	add discount section's corporate & institutional sale in Stock Accounting
+	fix sql error on discount section's SQL in Stock Accounting
+	update FOC Discout calc in Stock Accouting view
+	update total pair+piece calc of Discount section in Stock Accounting
+
