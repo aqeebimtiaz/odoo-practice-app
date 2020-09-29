@@ -2102,3 +2102,7 @@ Worked on Bel-Odoo.
 	update FOC Discout calc in Stock Accouting view
 	update total pair+piece calc of Discount section in Stock Accounting
 
+29-9
+Worked with Billal Vai for work handover.
+	worked on BEL Mobile App.
+	setup development env, flask server setup locally, build debug apk, check device_id validation
