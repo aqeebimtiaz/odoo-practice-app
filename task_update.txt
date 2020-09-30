@@ -2106,3 +2106,9 @@ Worked on Bel-Odoo.
 Worked with Billal Vai for work handover.
 	worked on BEL Mobile App.
 	setup development env, flask server setup locally, build debug apk, check device_id validation
+
+30-9
+Worked with Billal Vai for work handover.
+	worked on BEL Mobile App.
+	worked on Bel-Sales Dashboard.
+	server setup for both flask apps.
